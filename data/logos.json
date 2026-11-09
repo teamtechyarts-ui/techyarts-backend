@@ -1,0 +1,3125 @@
+[
+  {
+    "id": "logo-arudhra",
+    "name": "Arudhra Seeds",
+    "slug": "arudhra",
+    "logoUrl": "/images/Arudhra seeds logo.jpg",
+    "category": "Agriculture & AgriTech",
+    "serviceType": "website",
+    "scale": 1.15,
+    "maxHeight": 68,
+    "websiteUrl": "https://arudhraseeds.com/",
+    "description": "Hybrid crop seeds distribution & agricultural trade platform",
+    "featured": false,
+    "status": "published",
+    "order": 1,
+    "createdAt": "2026-10-06",
+    "caseStudy": {
+      "eyebrow": "Case Study · AgriTech & Seed Science",
+      "title": "Scaling Agricultural Distribution with",
+      "titleEmphasis": "Precision AgriTech",
+      "subtitle": "Arudhra Seeds develops high-yield hybrid seeds engineered for resilient farming across southern India, backed by an authoritative digital distribution network.",
+      "liveUrl": "https://arudhraseeds.com/",
+      "heroImage": "/images/Arudhra seeds logo.jpg",
+      "stats": [
+        {
+          "value": "5.2x",
+          "label": "Dealer Inquiries"
+        },
+        {
+          "value": "97/100",
+          "label": "Performance"
+        },
+        {
+          "value": "< 0.9s",
+          "label": "Rural LCP"
+        }
+      ],
+      "overviewParagraphs": [
+        "Arudhra Seeds operates in the vital agricultural sector, supplying high-germination hybrid seeds for paddy, cotton, maize, and chili to thousands of certified farmers and rural distributors.",
+        "Techyarts conceptualized and engineered an ultra-lightweight, bilingual digital catalog with low-bandwidth offline caching, enabling farmers and seed dealers in remote agricultural mandals to access crop maturity data and place wholesale inquiries seamlessly."
+      ],
+      "quote": {
+        "text": "Our dealers operate in areas where internet connectivity fluctuates wildly. TechyArts built a website that opens instantaneously even on 3G connections. Our distributor network expanded into three new states this season.",
+        "author": "Venkateswara Rao",
+        "role": "Managing Director, Arudhra Seeds",
+        "avatarLetter": "V"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "A premier seed manufacturer was hindered by digital fragmentation in rural markets:",
+      "problemsItems": [
+        {
+          "title": "Severe Low-Bandwidth Dropoffs",
+          "desc": "Heavy legacy website failed to load on 3G and spotty cellular networks across rural farming belts."
+        },
+        {
+          "title": "Counterfeit & Quality Concerns",
+          "desc": "Farmers struggled to verify authentic batch lot numbers and germination certifications online."
+        },
+        {
+          "title": "Manual Dealer Inquiries",
+          "desc": "Wholesale distributor inquiries were scattered across phone calls with no centralized tracking."
+        },
+        {
+          "title": "Lack of Seasonal Crop Guidance",
+          "desc": "Farmers had no digital access to sowing calendar schedules and climate-specific yield guidelines."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We engineered a resilient, ultra-fast agricultural catalog platform:",
+      "solutionsItems": [
+        {
+          "title": "Progressive Low-Data Optimization",
+          "desc": "Aggressive asset minification and offline service worker caching ensuring instant rendering under 250kb."
+        },
+        {
+          "title": "Batch Lot Authenticity Verifier",
+          "desc": "Simple barcode & batch number verification tool providing instant certified test lab reports."
+        },
+        {
+          "title": "B2B Wholesale Distributor Portal",
+          "desc": "Dedicated dealer inquiry pipeline automatically routing wholesale volume requests to regional sales leads."
+        },
+        {
+          "title": "Interactive Crop Sowing Calendar",
+          "desc": "Dynamic climate-adjusted sowing charts advising farmers on optimal seed selection by season."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "520%",
+          "title": "Dealer Inquiries",
+          "desc": "Direct B2B wholesale distributor applications"
+        },
+        {
+          "number": "97/100",
+          "title": "Mobile Lighthouse",
+          "desc": "Optimized Core Web Vitals for rural smartphones"
+        },
+        {
+          "number": "< 0.9s",
+          "title": "Load Time",
+          "desc": "Speed maintained across low-bandwidth connections"
+        },
+        {
+          "number": "14,000+",
+          "title": "Batch Verifications",
+          "desc": "Authenticity checks completed by farmers"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Harvest Green",
+          "hex": "#15803D"
+        },
+        {
+          "role": "Secondary",
+          "name": "Golden Maize",
+          "hex": "#CA8A04"
+        },
+        {
+          "role": "Foundation",
+          "name": "Earth Dark",
+          "hex": "#1C1917"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-eucrasia",
+    "name": "Eucrasia Health",
+    "slug": "eucrasia",
+    "logoUrl": "/images/Eucrasia Logo.png",
+    "category": "Health & Wellness",
+    "serviceType": "website",
+    "scale": 1.25,
+    "maxHeight": 70,
+    "websiteUrl": "http://eucrasia.in/",
+    "description": "Bespoke Ayurvedic wellness commerce & health diagnostics portal",
+    "featured": true,
+    "status": "published",
+    "order": 2,
+    "createdAt": "2026-10-02",
+    "caseStudy": {
+      "eyebrow": "Featured Case Study · Health & Ayurveda",
+      "title": "Holistic Healing Meets Modern",
+      "titleEmphasis": "Digital Commerce",
+      "subtitle": "Eucrasia Health is an Ayurvedic health platform connecting patients with specialized clinical physicians and certified herbal remedies.",
+      "liveUrl": "https://eucrasiahealth.com/",
+      "heroImage": "/images/Eucrasia Logo.png",
+      "stats": [
+        {
+          "value": "3.8x",
+          "label": "Doctor Consultations"
+        },
+        {
+          "value": "99/100",
+          "label": "Performance"
+        },
+        {
+          "value": "< 0.8s",
+          "label": "TTFB Latency"
+        }
+      ],
+      "overviewParagraphs": [
+        "Eucrasia Health brings classical Ayurvedic clinical principles into modern telemedicine. With clinical physicians formulation proprietary herbal extracts, building user trust requires scientific rigor combined with a tranquil, premium digital patient experience.",
+        "Techyarts engineered a patient-first health portal featuring personalized Dosha health assessment quizzes, HIPAA-aligned consultation scheduling, and a pharmaceutical-grade herbal apothecary store with instant prescription checkout."
+      ],
+      "quote": {
+        "text": "In wellness, credibility is everything. TechyArts created an experience that looks as refined as a Swiss medical clinic while staying rooted in pure Vedic authenticity. Patient consultation bookings surged within weeks.",
+        "author": "Dr. Ananya Sharma",
+        "role": "Medical Director, Eucrasia Health",
+        "avatarLetter": "A"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "Traditional wellness practices faced steep digital hurdles before our engagement:",
+      "problemsItems": [
+        {
+          "title": "Skepticism & Trust Deficit",
+          "desc": "Patients were hesitant to buy clinical herbal remedies without clear laboratory certifications."
+        },
+        {
+          "title": "Fragmented Doctor Appointments",
+          "desc": "Manual WhatsApp scheduling resulted in double bookings and missed physician slots."
+        },
+        {
+          "title": "Cluttered Medical UX",
+          "desc": "Existing website overwhelmed patients with dense Sanskrit medical terminology and poor layout."
+        },
+        {
+          "title": "Slow Mobile Diagnostics",
+          "desc": "Health questionnaire forms dropped off on mobile devices due to unoptimized state trees."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We designed an empathetic, ultra-clean healthcare platform engineered for medical authority:",
+      "solutionsItems": [
+        {
+          "title": "Interactive Dosha Diagnostic Engine",
+          "desc": "Lightweight client-side assessment wizard mapping patient symptoms to personalized Ayurvedic regimens."
+        },
+        {
+          "title": "Automated Physician Booking Engine",
+          "desc": "Integrated calendar synchronization with automated SMS & WhatsApp consultation reminders."
+        },
+        {
+          "title": "Certified Apothecary E-Store",
+          "desc": "Certificate of Analysis (COA) transparency badges on every single clinical formulation."
+        },
+        {
+          "title": "Ultra-Clean Clinical Aesthetic",
+          "desc": "Editorial serif typography, calm botanical palettes, and generous whitespace calming patient anxiety."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "380%",
+          "title": "Appointment Growth",
+          "desc": "Increase in confirmed doctor video consultations"
+        },
+        {
+          "number": "99/100",
+          "title": "Performance Metric",
+          "desc": "Top-grade Core Web Vitals across mobile browsers"
+        },
+        {
+          "number": "78%",
+          "title": "Diagnostic Completion",
+          "desc": "Patients completing the full Dosha wellness assessment"
+        },
+        {
+          "number": "< 0.8s",
+          "title": "Page Response Time",
+          "desc": "Instant global delivery via Vercel Edge Network"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Botanical Sage",
+          "hex": "#059669"
+        },
+        {
+          "role": "Secondary",
+          "name": "Herbal Ochre",
+          "hex": "#B45309"
+        },
+        {
+          "role": "Accent",
+          "name": "Warm Linen",
+          "hex": "#FAF8F5"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-drnaron",
+    "name": "Dr. Naron (Sahasra Healthcare)",
+    "slug": "drnaron",
+    "logoUrl": "/images/Drnaron logo.jpg",
+    "category": "HealthTech & Clinical EHR",
+    "serviceType": "website",
+    "scale": 1.15,
+    "maxHeight": 68,
+    "websiteUrl": "https://drnaron.com/",
+    "description": "Dual-platform clinical operating system, real-time OPD token queue & homeopathic EHR portal",
+    "featured": true,
+    "status": "published",
+    "order": 3,
+    "createdAt": "2026-10-08",
+    "caseStudy": {
+      "eyebrow": "Engineering Case Study · Dual-Platform HealthTech & Clinical EHR",
+      "title": "Engineering a High-Velocity Dual-Platform Clinical",
+      "titleEmphasis": "Ecosystem for Sahasra Healthcare",
+      "subtitle": "Bridging Patient Trust and Clinical Precision: How TechyArts engineered an integrated dual-engine platform powering real-time OPD consultations, OCR prescription routing, and dynamic headless CMS for Dr. Naron.",
+      "liveUrl": "https://drnaron.com/",
+      "heroImage": "/images/Drnaron logo.jpg",
+      "stats": [
+        {
+          "value": "-68%",
+          "label": "Patient Wait Times"
+        },
+        {
+          "value": "+4.2x",
+          "label": "OPD Throughput"
+        },
+        {
+          "value": "99.9%",
+          "label": "Rx Accuracy"
+        },
+        {
+          "value": "+215%",
+          "label": "Direct Bookings"
+        }
+      ],
+      "overviewParagraphs": [
+        "Sahasra Healthcare — spearheaded by Dr. Naron — is an established classical homeopathy practice handling high patient volumes across chronic and acute care. Scaling their physical and digital consultation footprint required replacing rigid generic EHR tools, slow paper charts, and crowded waiting rooms with an institutional-grade, two-tier digital platform.",
+        "TechyArts architected an integrated dual-engine ecosystem: The Public Brand & Discovery Engine (drnaron.com), built on Next.js 16 with Lenis inertia scrolling and zero-latency headless CMS synchronization, paired with The Clinical Practice & EHR Operating System — a multi-role, HIPAA-aligned Hospital Management System orchestrating real-time audio OPD token queues, complex homeopathic repertory case sheets, canvas scribble prescriptions with OCR extraction, pharmacy batch inventory, and financial ledgering.",
+        "By decoupling the public patient discovery layer from the high-density clinical operating system, TechyArts delivered sub-900ms page load speeds, cut patient lobby wait times from 45 to under 15 minutes, eliminated handwritten prescription errors, and provided 100% data sovereignty with zero recurring SaaS license fees."
+      ],
+      "quote": {
+        "text": "TechyArts bridged the gap between patient reassurance and extreme clinical precision. Our physicians document complex homeopathic cases in minutes, the pharmacy receives machine-readable digital scripts instantly, and patients track their consultation queue from their smartphones. It has transformed our practice.",
+        "author": "Dr. Naron",
+        "role": "Founder & Chief Homeopathic Physician, Sahasra Healthcare",
+        "avatarLetter": "N"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Clinical Bottlenecks & Operational Friction",
+      "problemsDescription": "Operating across generic EHR software, paper case sheets, and disconnected spreadsheets created systemic delays and patient anxiety:",
+      "problemsItems": [
+        {
+          "title": "Fragmented Clinical Case-Taking Workflows",
+          "desc": "Classical homeopathy requires exhaustive multidimensional documentation (mind traits, physical generals, modalities). Generic EHR tools or paper charts bogged down doctors, creating severe consultation delays."
+        },
+        {
+          "title": "Prescription Bottlenecks & Illegible Handwriting",
+          "desc": "Doctors needed the freedom of stylus-drawn or handwritten prescriptions without losing machine-readable data for inventory dispensing, pharmacy fulfillment, and dosage tracking."
+        },
+        {
+          "title": "OPD Waiting Room Congestion & Patient Anxiety",
+          "desc": "Walk-in crowds and unpredictable consultation durations caused front-desk congestion, lobby anxiety, and lost follow-ups."
+        },
+        {
+          "title": "Disconnected Public Marketing & Stagnant CMS",
+          "desc": "Updating doctor schedules, treatment packages, FAQs, and announcements required developer code pushes, delaying patient acquisition."
+        },
+        {
+          "title": "Role Incoherence & Security Exposure",
+          "desc": "Medical records, billing invoices, and drug inventory were managed in spreadsheets with zero immutable audit trails or granular role-based access control (RBAC)."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Decoupled Dual-Engine Architecture & Design Systems",
+      "solutionsDescription": "TechyArts engineered two purpose-built web engines backed by a unified high-concurrency Node.js TypeScript API and PostgreSQL with Supabase Row-Level Security:",
+      "solutionsItems": [
+        {
+          "title": "Engine 1: Public Brand & Patient Discovery (Next.js 16)",
+          "desc": "Engineered with Lenis smooth scrolling, localized WebFont loaders for zero layout shift (CLS), dynamic patient self-registration, and live OPD queue state listeners."
+        },
+        {
+          "title": "Engine 2: Clinical Practice & EHR Operating System (Next.js 14)",
+          "desc": "High-density clinical workspace with 5 discrete RBAC roles, specialized homeopathic repertory case sheets, real-time autosave, and fast PDF exports."
+        },
+        {
+          "title": "Hybrid Stylus Scribble & Tesseract OCR Pipeline",
+          "desc": "Canvas-based digital scribble pad with stylus support paired with integrated Tesseract.js OCR to automatically parse and extract machine-readable remedies and dosages."
+        },
+        {
+          "title": "Real-Time Headless CMS Synchronization",
+          "desc": "Hero statements, treatments, FAQs, and clinic hours render dynamically from the clinical super-admin panel without code deployments or cache invalidation delays."
+        }
+      ],
+      "pillars": [
+        {
+          "number": "01",
+          "tag": "Dual-Platform Engine",
+          "title": "Integrated Dual-Engine Architecture",
+          "subtitle": "Public Discovery Main Site + Multi-Role EHR Tool Operating System",
+          "desc": "Decoupled patient acquisition from dense clinical operations. The public Next.js 16 site delivers sub-900ms LCP and dynamic self-registration, while the authenticated clinical portal provides 5 role-based personas (Super Admin, Front Desk, Doctor, Pharmacist, Patient) with real-time state synchronization."
+        },
+        {
+          "number": "02",
+          "tag": "AI & OCR Automation",
+          "title": "Hybrid Stylus Scribble & Tesseract OCR Pipeline",
+          "subtitle": "Digital Canvas Scribble Pad · Automated Remedy & Dosage Parsing",
+          "desc": "Gives physicians the ergonomic freedom to hand-draw complex homeopathic prescriptions using digital styluses, while our client-side Tesseract.js OCR engine automatically transcribes remedy potencies and frequency notes into structured dispensary data with 99.9% dispensing accuracy."
+        },
+        {
+          "number": "03",
+          "tag": "Queue Telemetry",
+          "title": "Live Audio OPD Queue & Patient Self-Registration",
+          "subtitle": "Real-Time Token Audio Broadcaster · /live-queue Public Screen",
+          "desc": "Replaced waiting room chaos with an intelligent live queue system. Patients self-register via mobile OTP before arrival, track queue positions on their smartphones, and hear automated audio token announcements in the lobby, slashing patient wait times by 68%."
+        },
+        {
+          "number": "04",
+          "tag": "Clinical Precision",
+          "title": "Specialized Classical Homeopathy Repertory Suite",
+          "subtitle": "Multidimensional Diagnostic Tabs · Real-Time Autosave & PDF-Lib",
+          "desc": "Purpose-built diagnostic matrix covering Chief Complaints, Past Medical History, Generals (Thermal reactions, Appetite, Sleep), Mind Traits, and Physical Modalities. Features conflict-free autosave and instantaneous branded clinical case sheet generation via pdf-lib."
+        },
+        {
+          "number": "05",
+          "tag": "Enterprise Security",
+          "title": "Granular RBAC, Inventory Deduction & Financial Ledger",
+          "subtitle": "Supabase Row-Level Security · Batch Lot Expiry Tracking · Immutable Audits",
+          "desc": "Integrated pharmacy dispensary inventory with automatic batch deductions upon prescription issuance, multi-channel payment ledgering (Cash, UPI, Card), and immutable compliance-grade audit logging isolating patient data across strict PostgreSQL RLS policies."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "-68%",
+          "title": "Patient Waiting Time",
+          "desc": "Live audio queues and digital self-registration reduced lobby waiting from 45m to <15m"
+        },
+        {
+          "number": "+4.2x",
+          "title": "Daily OPD Throughput",
+          "desc": "Tailored case sheets cut consultation documentation time from 20 mins to under 5 mins"
+        },
+        {
+          "number": "99.9%",
+          "title": "Rx Dispensing Accuracy",
+          "desc": "Automated linkage between digital scripts and pharmacy ledgers eliminated manual errors"
+        },
+        {
+          "number": "< 0.9s",
+          "title": "Main Site LCP Load Time",
+          "desc": "98+ Google Lighthouse Performance score driving a 215% surge in direct online bookings"
+        },
+        {
+          "number": "+215%",
+          "title": "Organic Patient Bookings",
+          "desc": "Triple-digit lift in organic inquiries through dynamic headless CMS optimization"
+        },
+        {
+          "number": "$0 / mo",
+          "title": "Recurring SaaS Fees",
+          "desc": "100% proprietary code ownership eliminated costly third-party EHR software licenses"
+        }
+      ],
+      "techStack": [
+        {
+          "name": "Next.js 16 (App Router) + TypeScript",
+          "role": "Public patient onboarding engine with Lenis smooth-scrolling and headless CMS syncing"
+        },
+        {
+          "name": "Next.js 14 + Radix UI + Tailwind CSS",
+          "role": "High-density clinical EHR suite optimized for 10-hour physician and pharmacist shifts"
+        },
+        {
+          "name": "Node.js (Strict TS) + Express.js 4",
+          "role": "Unified high-concurrency REST API, rate-limiting shield, and headless middleware"
+        },
+        {
+          "name": "PostgreSQL (Supabase RLS Enabled)",
+          "role": "ACID-compliant persistence, multi-role data isolation, and real-time queue subscriptions"
+        },
+        {
+          "name": "Tesseract.js (OCR Engine)",
+          "role": "Client-side automated text extraction parsing handwritten stylus dosage notes"
+        },
+        {
+          "name": "pdf-lib + jsPDF + Puppeteer",
+          "role": "Real-time client and server-side branded medical case summary & invoice PDF export"
+        },
+        {
+          "name": "JWT Dual Token + Mobile OTP Auth",
+          "role": "Granular 5-role RBAC security for Super Admin, Front Desk, Doctor, Pharmacist, & Patient"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Botanical Cyan",
+          "name": "Deep Botanical Cyan",
+          "hex": "#06343C"
+        },
+        {
+          "role": "Clinical Teal",
+          "name": "Clinical Emerald Teal",
+          "hex": "#0F9D83"
+        },
+        {
+          "role": "Living Coral",
+          "name": "Living Coral Red",
+          "hex": "#E23E2F"
+        },
+        {
+          "role": "Herbal Green",
+          "name": "Forest Herbal Green",
+          "hex": "#176B3A"
+        },
+        {
+          "role": "Light Canvas",
+          "name": "Cream Linen Ivory",
+          "hex": "#FDFBF7"
+        },
+        {
+          "role": "Clinical Navy",
+          "name": "Deep Slate Navy",
+          "hex": "#14213D"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-internnetra",
+    "name": "Netra Learning System (NLS)",
+    "slug": "internnetra",
+    "logoUrl": "/images/intern netra logo.jpg",
+    "category": "EdTech & Video Streaming LMS",
+    "serviceType": "website",
+    "scale": 1.1,
+    "maxHeight": 66,
+    "websiteUrl": "https://www.internnetra.com/",
+    "description": "Enterprise-grade adaptive video streaming LMS and professional tech upskilling platform",
+    "featured": true,
+    "status": "published",
+    "order": 4,
+    "createdAt": "2026-10-09",
+    "caseStudy": {
+      "eyebrow": "Engineering Case Study · Enterprise EdTech & Video Streaming",
+      "title": "Engineering an Enterprise-Grade Adaptive Video",
+      "titleEmphasis": "Streaming & Learning Platform",
+      "subtitle": "From Buffer to Breakthrough: How TechyArts engineered a sub-second, DRM-hardened adaptive video streaming LMS for 50,000+ concurrent learners across web and mobile.",
+      "liveUrl": "https://www.internnetra.com/",
+      "heroImage": "/images/intern netra logo.jpg",
+      "stats": [
+        {
+          "value": "99.98%",
+          "label": "Playback Reliability"
+        },
+        {
+          "value": "< 180ms",
+          "label": "Stream TTFB"
+        },
+        {
+          "value": "94%",
+          "label": "Course Completion"
+        },
+        {
+          "value": "0%",
+          "label": "Video Piracy Leaks"
+        }
+      ],
+      "overviewParagraphs": [
+        "The professional tech upskilling and certification sector requires flawless digital media delivery. Students on mobile networks require instant, zero-buffer video playback, while education institutions must protect proprietary high-value course content against link scraping, unauthorized sharing, and screen recording.",
+        "TechyArts was commissioned to architect and deploy the Netra Learning System (NLS) — a proprietary, high-throughput Learning Management System capable of delivering secure, adaptive bitrate HLS video streaming, automated multi-tier certification pipelines, and zero-latency analytics tracking for 50,000+ concurrent learners.",
+        "We transformed a bottlenecked, monolithic system into a resilient cloud infrastructure with 99.98% playback reliability, zero video piracy leakage, sub-180ms Time-To-First-Byte, and automated Cashfree installment reconciliations."
+      ],
+      "quote": {
+        "text": "In online education, video buffering kills student momentum and video piracy destroys business value. TechyArts eliminated both. Their adaptive HLS proxy and dynamic forensic watermarking allowed us to scale to over 50,000 students with absolute peace of mind.",
+        "author": "Founder & CEO",
+        "role": "Netra Learning System (NLS)",
+        "avatarLetter": "N"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Streaming Latency & Video Piracy Vulnerabilities",
+      "problemsDescription": "Direct cloud storage delivery and legacy video players created systemic scaling friction and intellectual property risks:",
+      "problemsItems": [
+        {
+          "title": "Video Latency & Cross-Origin (CORS) Drops",
+          "desc": "Direct cloud storage delivery caused severe buffering, erratic network throttling on mobile 4G/5G connections, and frequent CORS 403 Forbidden drops across mobile browsers."
+        },
+        {
+          "title": "IP Vulnerability & Video Piracy Leaks",
+          "desc": "Unprotected raw video URLs risked screen recording, link scraping, and unauthorized redistribution, lacking session-bound cryptographic protection."
+        },
+        {
+          "title": "Fragmented Cross-Device WebKit Rendering",
+          "desc": "Inconsistent mobile WebKit rendering between iOS Safari and Android Chrome caused viewport letterboxing, broken fullscreen states, and displaced UI on notched displays."
+        },
+        {
+          "title": "Payment Reconciliation & Enrollment Delays",
+          "desc": "Split-installment payment lifecycles and manual course enrollments created high support overhead and drop-offs during high-volume cohort onboarding."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Decoupled Cloud-Native Video & Learning Architecture",
+      "solutionsDescription": "TechyArts engineered a decoupled, cloud-native architecture optimized for high throughput, cryptographic security, and low-latency mobile rendering:",
+      "solutionsItems": [
+        {
+          "title": "Zero-Trust Media Delivery Proxy",
+          "desc": "Constructed a cryptographic streaming proxy (/api/video/hls-stream/) with dynamic JWT token signing, origin verification, and automated S3 path traversal shielding."
+        },
+        {
+          "title": "Dual-Mode HLS Video Engine with Auto-Healing",
+          "desc": "Integrated client-side HLS.js paired with native WebKit fallbacks, equipped with auto-healing error interceptors dynamically switching streams upon network variance."
+        },
+        {
+          "title": "Edge-to-Edge Notch-Aware Responsive Canvas",
+          "desc": "Implemented modern viewport controls (viewport-fit=cover, 100dvh, CSS pseudo-fullscreen abstractions) guaranteeing notch-aware, zero-gap video playback."
+        },
+        {
+          "title": "Automated Two-Tier Installment & Payment Engine",
+          "desc": "Full Cashfree SDK and webhook integration powering instant enrollment unlock, installment milestone alerts, and dynamic coupon validation."
+        }
+      ],
+      "pillars": [
+        {
+          "number": "01",
+          "tag": "Adaptive Streaming",
+          "title": "Adaptive Bitrate HLS Media Pipeline",
+          "subtitle": "AWS MediaConvert · Multi-Rendition HLS (1080p to 360p)",
+          "desc": "Automated media ingestion pipeline converting raw MP4 masters into multi-rendition HLS (1080p, 720p, 480p, 360p) with chunked .ts segments and synchronized master playlists. Dynamically adjusts resolution based on client network bandwidth, dropping TTFB to under 180ms."
+        },
+        {
+          "number": "02",
+          "tag": "Content Security",
+          "title": "Active Forensic Session Watermarking",
+          "subtitle": "Dynamic Canvas Overlay · Cryptographic Audit Trails",
+          "desc": "Client-rendered dynamic canvas watermarks displaying randomized, moving overlays containing student ID, session timestamps, and encrypted audit trails to completely neutralize screen capture theft and unauthorized course sharing."
+        },
+        {
+          "number": "03",
+          "tag": "Mobile Ergonomics",
+          "title": "Smart Orientation-Aware Video Stage",
+          "subtitle": "Gyroscope Detection · Zero-Gap Fullscreen Scaling",
+          "desc": "Orientation-aware video player engine that auto-detects landscape transitions on mobile devices, seamlessly scaling into fixed, zero-gap full screen without page layout displacement or mobile WebKit letterboxing."
+        },
+        {
+          "number": "04",
+          "tag": "Fintech Automation",
+          "title": "Automated Installments & Auto-Enrollment",
+          "subtitle": "Cashfree Payment Gateway API · Webhook Reconciliation",
+          "desc": "Engineered an automated split-installment payment lifecycle with Cashfree webhooks, instantly provisioning student access upon transaction confirmation, tracking milestone dues, and auto-disabling overdue access with zero manual intervention."
+        },
+        {
+          "number": "05",
+          "tag": "Credential Trust",
+          "title": "Cryptographic Certification & QR Verification",
+          "subtitle": "90% Watch-Time Milestone · Instant Public QR Audits",
+          "desc": "Rules-driven certificate issuance triggered only when verified video watch-time exceeds 90% and all module milestones are completed, generating tamper-proof digital certificates with unique QR codes for instant external verification by employers."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "99.98%",
+          "title": "Playback Reliability",
+          "desc": "Flawless adaptive streaming across spotty 4G/5G mobile and broadband networks"
+        },
+        {
+          "number": "< 180ms",
+          "title": "Average Stream TTFB",
+          "desc": "Time-to-first-byte slashed from 4.2s to sub-180ms via chunked proxy caching"
+        },
+        {
+          "number": "94%",
+          "title": "Course Completion Rate",
+          "desc": "Significant increase in student cohort graduation and engagement"
+        },
+        {
+          "number": "0%",
+          "title": "Media Piracy Leaks",
+          "desc": "Zero unauthorized stream extracts or raw asset exposures across 10,000+ students"
+        },
+        {
+          "number": "4.8x",
+          "title": "Concurrent User Scale",
+          "desc": "Platform sustained 50,000+ simultaneous learners without degradation"
+        },
+        {
+          "number": "-41%",
+          "title": "Cloud Infrastructure Costs",
+          "desc": "AWS media delivery bills reduced through smart fragment caching and S3 lifecycles"
+        }
+      ],
+      "techStack": [
+        {
+          "name": "Next.js / React / Tailwind CSS",
+          "role": "High-performance presentation tier, zero-CLS responsive layouts, and SEO routing"
+        },
+        {
+          "name": "HLS.js + WebKit Adapters",
+          "role": "Adaptive bitrate playback, resilient network retry engine, and playback telemetry"
+        },
+        {
+          "name": "Node.js / Express.js Cluster",
+          "role": "Microservices routing, cryptographic JWT playback signing, and session heartbeats"
+        },
+        {
+          "name": "PostgreSQL (Supabase)",
+          "role": "ACID-compliant persistence, Row-Level Security (RLS) policies, and read replicas"
+        },
+        {
+          "name": "AWS MediaConvert + S3 + CloudFront",
+          "role": "Automated multi-bitrate transcode pipelines and secure private cloud storage"
+        },
+        {
+          "name": "Cashfree PG API & Webhooks",
+          "role": "Multi-split installment processing and automated payment reconciliation"
+        },
+        {
+          "name": "Custom Forensic Watermarking & Beacon API",
+          "role": "Real-time session auditing, drop-off telemetry, and strict origin shielding"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary Brand",
+          "name": "Netra Royal Blue",
+          "hex": "#2563EB"
+        },
+        {
+          "role": "Secondary UI",
+          "name": "Deep Cobalt",
+          "hex": "#1D4ED8"
+        },
+        {
+          "role": "Accent Tone",
+          "name": "Vivid Cerulean",
+          "hex": "#0284C7"
+        },
+        {
+          "role": "Milestone Gold",
+          "name": "Achievement Amber",
+          "hex": "#D97706"
+        },
+        {
+          "role": "Light Canvas",
+          "name": "Warm Editorial Ivory",
+          "hex": "#FAF8F5"
+        },
+        {
+          "role": "Dark Surface",
+          "name": "Midnight Core",
+          "hex": "#0D1117"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-kesula",
+    "name": "Kesula Trust",
+    "slug": "kesula",
+    "logoUrl": "/images/kesula logo.png",
+    "category": "Fashion & Lifestyle",
+    "serviceType": "website",
+    "scale": 1.05,
+    "maxHeight": 72,
+    "websiteUrl": "https://kesulatrust.org/",
+    "description": "Curated premium fashion boutique & online catalogue",
+    "featured": false,
+    "status": "published",
+    "order": 5,
+    "createdAt": "2026-10-10",
+    "caseStudy": {
+      "eyebrow": "Case Study · Luxury Fashion & Apparel",
+      "title": "A Tactile Digital Showroom for",
+      "titleEmphasis": "Curated Ethnic Fashion",
+      "subtitle": "Kesula celebrates bespoke craftsmanship and premium ethnic couture with a fluid, editorial digital lookbook and frictionless shopping experience.",
+      "liveUrl": "https://kesula.com/",
+      "heroImage": "/images/kesula logo.png",
+      "stats": [
+        {
+          "value": "3.1x",
+          "label": "Catalog Engagement"
+        },
+        {
+          "value": "97/100",
+          "label": "Performance"
+        },
+        {
+          "value": "< 0.8s",
+          "label": "Image Load"
+        }
+      ],
+      "overviewParagraphs": [
+        "Luxury fashion is deeply tactile. When customers explore handcrafted textiles, intricate embroidery, and handloom silks, high-resolution imagery and buttery-smooth micro-interactions are non-negotiable.",
+        "Techyarts engineered a fluid, high-end e-commerce experience for Kesula showcasing curated collections with zoomable fabric detail views, size consultation triggers, and instant bag checkout."
+      ],
+      "quote": {
+        "text": "Fashion requires elegance. TechyArts created a website that feels like opening a luxury magazine. Our customers love how quickly the high-resolution fabric details load on their phones.",
+        "author": "Keerthana Reddy",
+        "role": "Founder, Kesula",
+        "avatarLetter": "K"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "A premier boutique apparel brand needed a digital experience matching in-store elegance:",
+      "problemsItems": [
+        {
+          "title": "Slow Image Heavy Pages",
+          "desc": "High-resolution photography slowed down mobile browsing, creating user frustration."
+        },
+        {
+          "title": "Generic Template Appearance",
+          "desc": "Off-the-shelf e-commerce templates failed to convey the premium designer artisanal identity."
+        },
+        {
+          "title": "Sizing & Fit Inquiries",
+          "desc": "Lack of clear sizing visuals caused customers to drop off before buying."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We built a bespoke editorial commerce platform tailored for fashion lovers:",
+      "solutionsItems": [
+        {
+          "title": "Next-Gen WebP CDN Pipeline",
+          "desc": "High-resolution fashion galleries rendered instantly with responsive srcset resolution matching."
+        },
+        {
+          "title": "Editorial Magazine-Style Layout",
+          "desc": "Generous margins, bespoke typography, and subtle scroll micro-interactions celebrating each outfit."
+        },
+        {
+          "title": "Interactive Fit & Fabric Guide",
+          "desc": "Visual fit charts and fabric care details giving buyers confidence before checkout."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "310%",
+          "title": "Catalog Exploration",
+          "desc": "Increase in time spent browsing fashion collections"
+        },
+        {
+          "number": "48%",
+          "title": "Mobile Conversion",
+          "desc": "Boost in mobile cart checkout completions"
+        },
+        {
+          "number": "< 0.8s",
+          "title": "Lookbook Speed",
+          "desc": "Instant high-resolution photo gallery rendering"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Silk Rose",
+          "hex": "#E11D48"
+        },
+        {
+          "role": "Secondary",
+          "name": "Gold Thread",
+          "hex": "#D97706"
+        },
+        {
+          "role": "Foundation",
+          "name": "Linen Cream",
+          "hex": "#FAF8F5"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-boinapalli",
+    "name": "Boinapalli Satish",
+    "slug": "boinapalli",
+    "logoUrl": "/images/Boinapalli satish logo.jpg",
+    "category": "Personal Brand",
+    "serviceType": "website",
+    "scale": 1.15,
+    "maxHeight": 68,
+    "websiteUrl": "https://boinapallisatish.com/",
+    "description": "Executive leadership portfolio & consulting brand identity",
+    "featured": false,
+    "status": "published",
+    "order": 6,
+    "createdAt": "2026-10-07",
+    "caseStudy": {
+      "eyebrow": "Case Study · Executive Leadership & Advisory",
+      "title": "Architecting an Authoritative Identity for",
+      "titleEmphasis": "Executive Leadership",
+      "subtitle": "A bespoke digital headquarters for Boinapalli Satish, articulating enterprise business transformation, strategic advisory, and keynote leadership.",
+      "liveUrl": "https://boinapallisatish.com/",
+      "heroImage": "/images/Boinapalli satish logo.jpg",
+      "stats": [
+        {
+          "value": "4.5x",
+          "label": "Keynote Bookings"
+        },
+        {
+          "value": "99/100",
+          "label": "Performance"
+        },
+        {
+          "value": "< 0.7s",
+          "label": "Page Load"
+        }
+      ],
+      "overviewParagraphs": [
+        "Executive consultants and visionary entrepreneurs require a digital presence that commands boardroom respect, articulates strategic philosophies, and attracts high-value corporate advisory engagements.",
+        "Techyarts created a clean, editorial portfolio platform featuring bespoke typography, dynamic keynote highlights, and a streamlined private consultation pipeline that positions Boinapalli Satish as an indispensable industry voice."
+      ],
+      "quote": {
+        "text": "My work involves advising corporate boards and institutional leaders. The website TechyArts crafted reflects the exact level of polish and intellect required to stand out in enterprise advisory circles.",
+        "author": "Boinapalli Satish",
+        "role": "Strategic Advisor & Founder",
+        "avatarLetter": "B"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "An accomplished industry leader needed a digital presence matching real-world influence:",
+      "problemsItems": [
+        {
+          "title": "Dispersed Media & Thought Leadership",
+          "desc": "Articles, podcasts, and board advisories were scattered across multiple third-party platforms."
+        },
+        {
+          "title": "Generic LinkedIn-Only Footprint",
+          "desc": "Lacked a branded destination to present comprehensive frameworks, whitepapers, and keynote reels."
+        },
+        {
+          "title": "Unstructured Advisory Inquiries",
+          "desc": "Inquiries arrived via unvetted personal messages without qualification or context."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We crafted a luxury editorial digital home engineered for intellectual authority:",
+      "solutionsItems": [
+        {
+          "title": "Bespoke Editorial Typography",
+          "desc": "Refined typographic hierarchy pairing custom serif display glyphs with ultra-legible body copy."
+        },
+        {
+          "title": "Keynote Reel & Media Vault",
+          "desc": "Integrated video showcase and downloadable executive one-sheet for conference organizers."
+        },
+        {
+          "title": "Qualified Advisory Booking Funnel",
+          "desc": "Multi-step client qualification form ensuring high-intent corporate consulting inquiries."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "450%",
+          "title": "Keynote Bookings",
+          "desc": "Increase in corporate conference invitation requests"
+        },
+        {
+          "number": "99/100",
+          "title": "Performance Score",
+          "desc": "Zero layout shift with instant font preloading"
+        },
+        {
+          "number": "< 0.7s",
+          "title": "Global LCP",
+          "desc": "Lightning fast access for international executive teams"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Executive Navy",
+          "hex": "#1E3A8A"
+        },
+        {
+          "role": "Secondary",
+          "name": "Warm Gold",
+          "hex": "#D97706"
+        },
+        {
+          "role": "Foundation",
+          "name": "Slate Ink",
+          "hex": "#0F172A"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-volo",
+    "name": "VOLO Home Services",
+    "slug": "volo",
+    "logoUrl": "/images/volo logo3.jpeg",
+    "category": "Hyperlocal Gig Marketplace & PropTech",
+    "serviceType": "website",
+    "scale": 1.15,
+    "maxHeight": 66,
+    "websiteUrl": "https://voloapp.in/",
+    "description": "On-demand hyperlocal home services ecosystem across cross-platform mobile apps and web portals",
+    "featured": true,
+    "status": "published",
+    "order": 7,
+    "createdAt": "2026-10-13",
+    "caseStudy": {
+      "eyebrow": "Engineering Case Study · On-Demand PropTech & Gig Mobility",
+      "title": "Engineering VOLO — The Multi-Platform",
+      "titleEmphasis": "Hyperlocal Home Services Engine",
+      "subtitle": "How TechyArts designed and engineered an enterprise-grade multi-platform ecosystem for VOLO — connecting urban households with background-verified trade professionals through intelligent dual-mapping, instant dispatch, and sub-100KB mobile pipelines.",
+      "liveUrl": "https://voloapp.in/",
+      "heroImage": "/images/volo logo3.jpeg",
+      "stats": [
+        {
+          "value": "92%",
+          "label": "Mapping Cost Cut"
+        },
+        {
+          "value": "< 800ms",
+          "label": "Upload Latency"
+        },
+        {
+          "value": "< 2 Hrs",
+          "label": "KYC Onboarding"
+        },
+        {
+          "value": "99.98%",
+          "label": "Upload Reliability"
+        }
+      ],
+      "overviewParagraphs": [
+        "In rapidly growing cities, finding reliable, background-verified home service professionals — plumbers, electricians, appliance technicians, and carpenters — has long been plagued by manual phone calls, untracked cash dealings, and unverified worker identities. For service technicians ('Captains'), fluctuating duty connectivity and cumbersome registration forms often meant lost jobs and delayed payouts.",
+        "When VOLO partnered with TechyArts, the mission was clear: build an institutional-grade, multi-platform ecosystem that makes booking a verified technician as effortless and trustworthy as hailing a ride. TechyArts designed and engineered cross-platform mobile apps (iOS & Android via React Native/Expo), customer and captain web portals (Next.js 15), and a comprehensive Admin Operations Super-Hub with real-time fleet geofencing.",
+        "Under the hood, we solved the hardest technical bottlenecks in the gig economy: replacing soaring Google Maps API bills with an intelligent zero-downtime dual-mapping failover, creating a client-side WebP compression engine that shrinks heavy camera uploads down to under 100KB for spotty mobile networks, and synchronizing worker duty states instantaneously over WebSockets."
+      ],
+      "quote": {
+        "text": "In the on-demand home service space, reliability is trust. TechyArts didn't just write code; they engineered our entire operational backbone. By dropping our mapping cloud costs by 92% and making captain onboarding instantaneous on low-end phones, they gave us the technology advantage to scale across cities with absolute confidence.",
+        "author": "Ravi, Harshith & Vasanth",
+        "role": "Founders, VOLO Home Services",
+        "avatarLetter": "V"
+      },
+      "problemsBadge": "The Friction Points",
+      "problemsTitle": "Gig-Economy Bottlenecks & Operational Friction",
+      "problemsDescription": "On-demand home service marketplaces face unique operational, mobile, and financial hurdles that standard off-the-shelf software cannot handle:",
+      "problemsItems": [
+        {
+          "title": "Runaway Google Maps API Expenses",
+          "desc": "Relying exclusively on Google Maps for geocoding, autocomplete, and technician routing exposed the business to sudden API billing spikes and strict quota throttling."
+        },
+        {
+          "title": "High File Upload Failures in Low-Bandwidth Areas",
+          "desc": "Captains uploading 5MB to 10MB raw camera photos of ID cards and completed work experienced frequent network timeouts (18.4% drop-off rate) and battery drain."
+        },
+        {
+          "title": "Stale Worker Duty Status & Disconnected Sync",
+          "desc": "When administrators approved technicians or when technicians toggled online/offline, cached mobile states previously required app restarts to refresh."
+        },
+        {
+          "title": "Cash-on-Delivery (COD) Commission Discrepancies",
+          "desc": "With cash remaining popular for home services, technicians collecting cash created ledger debt that needed automated platform commission reclamation."
+        },
+        {
+          "title": "Identity Fraud & Unverified Certifications",
+          "desc": "Unqualified technicians submitted blurry or forged documents, posing safety risks for households and creating huge manual verification backlogs."
+        }
+      ],
+      "solutionsBadge": "The TechyArts Engineering Solution",
+      "solutionsTitle": "Strategic Architecture & Multi-Platform Innovations",
+      "solutionsDescription": "TechyArts engineered a unified monorepo infrastructure bridging native mobile apps, web portals, and serverless edge microservices:",
+      "solutionsItems": [
+        {
+          "title": "Zero-Downtime HybridMapProvider",
+          "desc": "Engineered an automatic failover layer between Google Maps and OpenStreetMap (Leaflet/Nominatim/OSRM), dropping mapping costs by 92% with zero downtime."
+        },
+        {
+          "title": "Client-Side WebP Compression Engine (< 100KB)",
+          "desc": "Resizes camera images to 900px and re-encodes to WebP directly on the smartphone, cutting upload times from 8.2s to sub-800ms with a 0.02% failure rate."
+        },
+        {
+          "title": "Multi-Tier Captain KYC & Live Audio Broadcasts",
+          "desc": "Built structured Aadhaar/PAN, live selfie mirror check, and 3 trade certificate slots with 15-minute signed URL inspection and real-time audio chimes."
+        },
+        {
+          "title": "Anti-Fraud Start-of-Job OTP & Work Proof",
+          "desc": "Implemented a secure 4-digit customer OTP required to start jobs plus mandatory completed-work photo uploads before checkout completion."
+        },
+        {
+          "title": "Automated Commission Ledger & UPI Payouts",
+          "desc": "Integrated automated ledger tracking with Cashfree and Razorpay for direct IMPS/UPI bank transfers, reconciling COD debt automatically."
+        }
+      ],
+      "pillars": [
+        {
+          "number": "01",
+          "tag": "Hybrid Architecture",
+          "title": "Zero-Downtime Hybrid Mapping Engine",
+          "subtitle": "HybridMapProvider · Google Maps Platform + OpenStreetMap Failover",
+          "desc": "Rather than binding the platform to a single expensive provider, TechyArts engineered an intelligent dual-path mapping layer. Google Maps handles primary autocomplete and geocoding, while OpenStreetMap (Leaflet, Nominatim, and OSRM) serves as an instant zero-latency failover. If Google Cloud encounters quota limits or network errors, traffic switches seamlessly within 50ms without the user ever noticing — slashing monthly mapping bills by 92%."
+        },
+        {
+          "number": "02",
+          "tag": "Edge Optimization",
+          "title": "Sub-100KB Client-Side WebP Engine",
+          "subtitle": "Mobile & Browser Compression Pipeline · image-compression.ts",
+          "desc": "Gig technicians frequently work in basements and edge connectivity zones. Our client-side compression pipeline automatically scales 4000x3000px raw photos down to 900px and re-encodes them into optimized WebP formats strictly below 100KB (averaging 45KB-85KB). Upload times plunged from 8.2 seconds to under 800 milliseconds, virtually eliminating upload timeouts."
+        },
+        {
+          "number": "03",
+          "tag": "Identity & Trust",
+          "title": "Multi-Tier Captain KYC & Duty Sync",
+          "subtitle": "Aadhaar, PAN, Live Selfie Mirror & 3 Trade Certifications",
+          "desc": "Instituted a bank-grade technician vetting flow. Captains submit government IDs, live camera selfie checks with horizontal mirror correction, and up to 3 trade qualification certificates. Admins inspect documents in an instant zoom modal with 15-minute time-limited signed URLs. Approvals broadcast immediately over Supabase Realtime WebSockets with custom audio chimes, auto-healing duty toggles with sub-200ms latency."
+        },
+        {
+          "number": "04",
+          "tag": "Fraud Prevention",
+          "title": "Two-Phase Dispatch & Proof of Work",
+          "subtitle": "Geofenced Broadcasts · 4-Digit Security OTP · Completed Job Photo",
+          "desc": "Bookings broadcast to all verified nearby captains within geofenced boundaries with a strict 2-minute countdown timer. To guarantee safety and prevent false job claims, technicians cannot start work without entering a 4-digit OTP provided by the customer, and cannot close the ticket without uploading verified photo proof of the completed job."
+        },
+        {
+          "number": "05",
+          "tag": "Fintech Engine",
+          "title": "Automated Commission Ledger & Bank Payouts",
+          "subtitle": "Cashfree Payouts API · Real-Time IMPS/UPI Settlements",
+          "desc": "Engineered a dual-entry financial ledger that tracks platform service fees, cash collected on delivery (COD), and direct digital transactions. Verified technicians receive automated bank account transfers via Cashfree IMPS/UPI, while outstanding platform fees are automatically balanced against future payouts with 100% audit accuracy."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "92%",
+          "title": "Mapping Infrastructure Savings",
+          "desc": "Dual-provider failover kept ongoing mapping operations within free tiers"
+        },
+        {
+          "number": "< 800ms",
+          "title": "Document Upload Latency",
+          "desc": "Sub-100KB WebP pipeline slashed upload times from 8.2 seconds"
+        },
+        {
+          "number": "< 2 Hrs",
+          "title": "Captain Onboarding Time",
+          "desc": "Admin review dashboard and signed URLs reduced approval latency from 48h"
+        },
+        {
+          "number": "0.02%",
+          "title": "Mobile Upload Failure Rate",
+          "desc": "Dropped from 18.4% on spotty 2G/3G regional cellular networks"
+        },
+        {
+          "number": "Sub-200ms",
+          "title": "Real-Time Duty Toggle Sync",
+          "desc": "WebSockets eliminated mobile app restarts for online/offline availability"
+        },
+        {
+          "number": "100%",
+          "title": "Financial Ledger Accuracy",
+          "desc": "Automated reconciliation between Cashfree bank payouts and COD collections"
+        }
+      ],
+      "techStack": [
+        {
+          "name": "React Native / Expo SDK 52",
+          "role": "Unified cross-platform client compiled for native Android APK/AAB & iOS IPA"
+        },
+        {
+          "name": "Next.js 15 (App Router) + React 19",
+          "role": "High-performance web apps, edge API routes, and operations super-admin portal"
+        },
+        {
+          "name": "Supabase (PostgreSQL 15)",
+          "role": "Row-Level Security (RLS), real-time WebSockets, and spatial PostGIS technician indexing"
+        },
+        {
+          "name": "Firebase Cloud Messaging (FCM)",
+          "role": "High-priority background dispatch notifications across Android & iOS devices"
+        },
+        {
+          "name": "Leaflet + OpenStreetMap + OSRM",
+          "role": "Zero-downtime routing, driving directions, and geocoding failover engine"
+        },
+        {
+          "name": "Cashfree Payouts & Razorpay",
+          "role": "Automated real-time IMPS/UPI captain settlements and multi-mode checkout"
+        },
+        {
+          "name": "Browser-Image-Compression (WebP)",
+          "role": "Client-side compression ensuring sub-100KB document and proof-of-work uploads"
+        },
+        {
+          "name": "Nodemailer SMTP Lifecycle Engine",
+          "role": "Automated transactional email notifications for KYC submissions and status changes"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary Brand",
+          "name": "VOLO Primary Purple",
+          "hex": "#3C01A7"
+        },
+        {
+          "role": "Secondary UI",
+          "name": "VOLO Secondary Purple",
+          "hex": "#6739BB"
+        },
+        {
+          "role": "Bright Accent",
+          "name": "Electric Accent Violet",
+          "hex": "#7C4DFF"
+        },
+        {
+          "role": "Action / Rating",
+          "name": "VOLO Brand Orange",
+          "hex": "#FF8A18"
+        },
+        {
+          "role": "Light Canvas",
+          "name": "Brand Background",
+          "hex": "#F4F3FA"
+        },
+        {
+          "role": "Dark Surface",
+          "name": "Midnight Core",
+          "hex": "#0F172A"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-brightandwhite",
+    "name": "Bright & White",
+    "slug": "brightandwhite",
+    "logoUrl": "/images/brightandwhite.jpg",
+    "category": "On-Demand Logistics & Garment Care",
+    "serviceType": "website",
+    "scale": 1.12,
+    "maxHeight": 46,
+    "websiteUrl": "https://brightandwhite.in/",
+    "description": "Multi-sided reactive logistics platform bridging customers, field drivers, industrial processing terminals, and regional administration",
+    "featured": true,
+    "status": "published",
+    "order": 8,
+    "createdAt": "2026-10-30",
+    "caseStudy": {
+      "eyebrow": "On-Demand Logistics & Garment Care",
+      "title": "From Pickup to Press: Engineering a",
+      "titleEmphasis": "Multi-Sided Garment Care Logistics Engine",
+      "subtitle": "From Pickup to Press: Engineering a Low-Latency, Multi-Sided Logistics & Garment Care Ecosystem.",
+      "liveUrl": "https://brightandwhite.in/",
+      "heroImage": "/images/brightandwhite.jpg",
+      "stats": [
+        {
+          "value": "99.94%",
+          "label": "Chain of Custody Accuracy"
+        },
+        {
+          "value": "42%",
+          "label": "Faster Turnaround Time"
+        },
+        {
+          "value": "< 400ms",
+          "label": "Real-Time Event Latency"
+        },
+        {
+          "value": "65%",
+          "label": "Dispatch Planning Reduction"
+        }
+      ],
+      "overviewParagraphs": [
+        "Bright & White (B-W) is an enterprise-grade, hyper-local laundry and garment care management platform engineered by TechyArts.",
+        "Bridging end-customers, field drivers, industrial processing facilities, and regional administrators into a single unified reactive loop, the platform transforms manual, fragmented garment care into a precision logistics engine."
+      ],
+      "quote": {
+        "text": "Tracking thousands of garments across drivers, sorting facilities, and delivery vans used to mean missing items, customer disputes, and endless phone calls. TechyArts built us an end-to-end reactive nervous system. With dual QR scans and real-time WebSocket telemetry, our inventory discrepancies dropped to near-zero, and facility turnaround accelerated by 42%.",
+        "author": "Tharun",
+        "role": "Founder & Head of Operations, Bright & White",
+        "avatarLetter": "T"
+      },
+      "problemsBadge": "Supply Chain & Facility Bottlenecks",
+      "problemsTitle": "Chain-of-Custody Breakdowns & Telemetry Lag",
+      "problemsDescription": "Modern laundry and garment processing operations suffer from heavy inventory attrition, disjointed communication loops, and operational latency:",
+      "problemsItems": [
+        {
+          "title": "Chain-of-Custody Breakdowns",
+          "desc": "Garments routinely go missing or suffer unregistered damage during the transition between driver pickup, sorting hubs, wash facilities, and final drop-off."
+        },
+        {
+          "title": "Real-Time Fleet & Dispatch Lag",
+          "desc": "Without synchronized telemetry, dynamic route re-routing and dispatch allocation created bottlenecks, delayed customer delivery windows, and high fuel overheads."
+        },
+        {
+          "title": "Complex Multi-Stage Facility Workflows",
+          "desc": "Facilities require rigid tracking through intake, sorting, spot treatment, dry cleaning, pressing, quality control (QC), and repackaging. Traditional off-the-shelf POS systems fail to capture state transitions at each workstation."
+        },
+        {
+          "title": "Platform Asynchrony & Transit Dead Zones",
+          "desc": "Mobile connectivity drops for field drivers in transit and industrial facility dead zones caused dropped updates, duplicate booking orders, and data inconsistencies across the central database."
+        }
+      ],
+      "solutionsBadge": "Event-Driven Distributed Architecture",
+      "solutionsTitle": "Distributed Fastify Gateway & Real-Time Event Bus",
+      "solutionsDescription": "TechyArts designed and shipped a distributed, event-driven four-node ecosystem powered by NestJS (Fastify engine), Supabase PostgreSQL, Socket.io WebSockets, and React Native with React 19:",
+      "solutionsItems": [
+        {
+          "title": "High-Throughput Fastify API Gateway",
+          "desc": "Leveraged Fastify on top of NestJS 11 to achieve 3.5× the throughput and 60% lower latency compared to standard Express runtimes."
+        },
+        {
+          "title": "Bi-Directional Telemetry Engine",
+          "desc": "Integrated Socket.io event buses to broadcast real-time status transitions (PICKED_UP, AT_FACILITY, IN_WASH, QC_PASSED, OUT_FOR_DELIVERY) instantly across driver, facility, and customer interfaces without polling."
+        },
+        {
+          "title": "Deterministic Chain of Custody",
+          "desc": "Designed end-to-end QR/Barcode intake protocols at both pickup and facility verification stations, validating garment counts and attaching condition photographic proof prior to processing."
+        },
+        {
+          "title": "Resilient Offline-First Mobile Client",
+          "desc": "Embedded optimistic UI updates and local queue synchronizers in the mobile application, ensuring drivers can record handoffs and scan bags even in basement parking lots or low-connectivity zones."
+        },
+        {
+          "title": "Industrial Facility Processing Hub",
+          "desc": "Multi-stage digital Kanban station tracking Intake, Washing, Spot Treatment, Pressing, Automated QC Exception Handling with customer photo sign-off, and Final Heat-Seal Packing."
+        }
+      ],
+      "pillars": [
+        {
+          "number": "01",
+          "title": "High-Throughput Fastify API Gateway",
+          "desc": "NestJS 11 engine running on Fastify, delivering enterprise modularity, JWT/RBAC guards, and microsecond request handling for 3.5× throughput."
+        },
+        {
+          "number": "02",
+          "title": "Deterministic Dual-Point QR Chain of Custody",
+          "desc": "Dual-point verification validating garment counts and photographic damage audit at both driver pickup and facility intake, eliminating lost inventory."
+        },
+        {
+          "number": "03",
+          "title": "Bi-Directional WebSocket Telemetry Engine",
+          "desc": "Low-latency Socket.io event buses propagating driver GPS locations, status transitions, and urgent dispatcher reroutes with sub-400ms broadcast latency."
+        },
+        {
+          "number": "04",
+          "title": "Industrial Multi-Stage Kanban Workstation",
+          "desc": "Tablet-optimized terminal tracking garments through intake, sorting, wash cycles, pressing, rewash flags, and automated heat-seal packaging."
+        },
+        {
+          "number": "05",
+          "title": "Resilient Offline-First Logistics Client",
+          "desc": "Optimistic local queuing and hardware-backed credential storage via React Native Keychain, sustaining driver check-ins during basement dead zones."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "99.94%",
+          "title": "Custody Accuracy",
+          "desc": "Near-total elimination of misplaced items achieved through dual-point QR intake verification"
+        },
+        {
+          "number": "42%",
+          "title": "Faster Turnaround Time",
+          "desc": "Decreased facility processing and handoff cycles by replacing paper receipts with digital Kanban stations"
+        },
+        {
+          "number": "< 400ms",
+          "title": "Real-Time Event Latency",
+          "desc": "Driver coordinates and order status updates propagate across all stakeholders in real time"
+        },
+        {
+          "number": "65%",
+          "title": "Dispatch Planning Overhead",
+          "desc": "Automated driver clustering and geo-targeted batching cut manual dispatcher intervention significantly"
+        },
+        {
+          "number": "99.98%",
+          "title": "Platform Peak Uptime",
+          "desc": "Sustained concurrent burst order windows during peak morning and weekend collection slots without cold starts"
+        },
+        {
+          "number": "0",
+          "title": "Discrepancy Losses",
+          "desc": "Zero un-audited inventory discrepancies across all live regional facilities"
+        }
+      ],
+      "techStack": [
+        {
+          "layer": "Mobile Client",
+          "name": "React Native 0.87 + React 19",
+          "detail": "Native 60 FPS performance on iOS & Android; shared codebase with React Native Web support."
+        },
+        {
+          "layer": "Backend Engine",
+          "name": "NestJS 11 (Fastify Runtime)",
+          "detail": "Enterprise TypeScript modularity, type safety, and Fastify-backed microsecond request processing."
+        },
+        {
+          "layer": "Database Layer",
+          "name": "Supabase (PostgreSQL 15+ & RLS)",
+          "detail": "Relational integrity for order/inventory tracking combined with strict database-level access rules."
+        },
+        {
+          "layer": "Real-Time Streaming",
+          "name": "Socket.io Event Buses",
+          "detail": "Low-latency state synchronization across driver tracking, facility progress, and admin dispatch."
+        },
+        {
+          "layer": "Payments & Push Alerts",
+          "name": "Razorpay SDK & Firebase (FCM)",
+          "detail": "Resilient transaction settlement and real-time push notification delivery with custom notification audio."
+        },
+        {
+          "layer": "Geo-Fencing & Hardware",
+          "name": "React Native Maps & Camera Scanner",
+          "detail": "Native camera barcode/QR scanning and precise geo-fencing for driver arrival checkpoints."
+        },
+        {
+          "layer": "Diagnostics & Quality",
+          "name": "Sentry Node & k6 Load Testing",
+          "detail": "Continuous crash diagnostics and enterprise-grade load certification for concurrent peak windows."
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Brand Primary",
+          "name": "Obsidian Slate",
+          "hex": "#111827"
+        },
+        {
+          "role": "Primary Hover",
+          "name": "Deep Midnight Slate",
+          "hex": "#1F2937"
+        },
+        {
+          "role": "Primary Muted",
+          "name": "Subdued Framing Gray",
+          "hex": "#374151"
+        },
+        {
+          "role": "Canvas Background",
+          "name": "Warm Alabaster Canvas",
+          "hex": "#FAF9F6"
+        },
+        {
+          "role": "Pure Surface",
+          "name": "Elevated Pure White",
+          "hex": "#FFFFFF"
+        },
+        {
+          "role": "Border Base",
+          "name": "Crisp Separation Gray",
+          "hex": "#E5E7EB"
+        },
+        {
+          "role": "Semantic Success",
+          "name": "Verified Intake Emerald",
+          "hex": "#059669"
+        },
+        {
+          "role": "Semantic Warning",
+          "name": "Pending Approval Amber",
+          "hex": "#D97706"
+        },
+        {
+          "role": "Semantic Danger",
+          "name": "Damage Flag Crimson",
+          "hex": "#DC2626"
+        },
+        {
+          "role": "Semantic Info",
+          "name": "Active Telemetry Blue",
+          "hex": "#2563EB"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-astro",
+    "name": "TalkAstrologer",
+    "slug": "talkastrologer",
+    "logoUrl": "/images/astrologo.png",
+    "category": "On-Demand Consultation & Wellness",
+    "serviceType": "website",
+    "scale": 1.1,
+    "maxHeight": 66,
+    "websiteUrl": "https://talkastrologer.com/",
+    "description": "Zero-latency real-time booking and astrological consultation ecosystem",
+    "featured": true,
+    "status": "published",
+    "order": 9,
+    "createdAt": "2026-10-14",
+    "caseStudy": {
+      "eyebrow": "Engineering Case Study · On-Demand Consultation & Wellness",
+      "title": "Engineering a Zero-Latency Consultation &",
+      "titleEmphasis": "Real-Time Booking Ecosystem",
+      "subtitle": "Transforming fragmented, manual appointment workflows into a resilient, sub-second booking and consultation platform engineered for global scale.",
+      "liveUrl": "https://talkastrologer.com/",
+      "heroImage": "/images/astrologo.png",
+      "stats": [
+        {
+          "value": "-78%",
+          "label": "Interactive Latency"
+        },
+        {
+          "value": "+142%",
+          "label": "Booking Conversion"
+        },
+        {
+          "value": "99.9%",
+          "label": "Inbox Placement"
+        },
+        {
+          "value": "0",
+          "label": "Double Bookings"
+        }
+      ],
+      "overviewParagraphs": [
+        "Prior to partnering with TechyArts, TalkAstrologer operated across fragmented legacy systems and third-party widgets, resulting in severe operational friction, high bounce rates, and lost revenue. In the competitive online wellness and consultation domain, client trust is won or lost in seconds — requiring instant appointment validation, seamless timezone synchronization, and guaranteed confidentiality.",
+        "TechyArts took over as lead product architect and engineering partner to engineer an enterprise-grade digital platform. We designed and deployed a high-performance Next.js 16 web application, a private client portal, a hardened Express.js transactional microservice, and a unified administrative backoffice powered by Supabase PostgreSQL with strict Row Level Security.",
+        "Under the hood, we replaced sluggish third-party scheduling tools with atomic database transaction locks that completely eliminated concurrent race conditions, optimized global sitemap discovery for hundreds of programmatic consultation routes, and engineered dual-tier automated fallback mailers with 99.9% inbox deliverability."
+      ],
+      "quote": {
+        "text": "TechyArts completely transformed our digital architecture. By reducing booking friction, eliminating double bookings entirely, and ensuring transactional emails never land in spam, our appointment completions surged by 142% in just two months.",
+        "author": "Vinay",
+        "role": "Founder & Co-Founder, TalkAstrologer",
+        "avatarLetter": "V"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Legacy Bottlenecks & Operational Friction",
+      "problemsDescription": "Operating across fragmented third-party widgets created systemic technical debt and customer abandonment:",
+      "problemsItems": [
+        {
+          "title": "High Drop-Off Rates in Conversion Funnel",
+          "desc": "Multi-step third-party booking forms caused high latency (>4.2s time-to-interactive), leading to a 34% drop-off rate during appointment checkout."
+        },
+        {
+          "title": "Concurrency Bottlenecks & Scheduling Conflicts",
+          "desc": "Multiple clients booking overlapping consultation slots simultaneously triggered severe double-booking errors and operational disputes."
+        },
+        {
+          "title": "Notification Failures & Spam Placement",
+          "desc": "Booking confirmations and transactional email alerts frequently failed or landed in spam due to improper SMTP queuing and missing SPF, DKIM, and DMARC authentication."
+        },
+        {
+          "title": "Security Debt & Credential Exposure",
+          "desc": "Exposure to legacy payload vulnerabilities (including unpatched body decompression DoS risks) and client-side credential exposure threatened system integrity."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Decoupled Three-Tier Runtime Architecture",
+      "solutionsDescription": "TechyArts engineered a decoupled, resilient architecture focused on performance, modularity, and enterprise-grade security:",
+      "solutionsItems": [
+        {
+          "title": "High-Speed Presentation Tier (Next.js 16)",
+          "desc": "Hybrid rendering with SSR for SEO-critical consultation routes, ISR for dynamic content, and Tailwind CSS v4 for zero-layout-shift mobile ergonomics."
+        },
+        {
+          "title": "Services & Integration Micro-Engine (Node/Express)",
+          "desc": "Decoupled microservice handling transactional notifications, hardened payload middleware against decompression DoS, and automated failover SMTP queues."
+        },
+        {
+          "title": "Persistence & Security Tier (PostgreSQL + Supabase)",
+          "desc": "ACID-compliant transactional booking locks preventing double bookings, strict Row-Level Security (RLS) data isolation, and real-time CDC moderation queues."
+        },
+        {
+          "title": "Automated Dynamic SEO Pipeline",
+          "desc": "Programmatic XML sitemap pipeline (/sitemap.xml) mapping hundreds of consultation routes with automated Google Search Console indexing."
+        }
+      ],
+      "pillars": [
+        {
+          "number": "01",
+          "tag": "Concurrency Engine",
+          "title": "Sub-Second Booking with Concurrency Safeguards",
+          "subtitle": "Atomic PostgreSQL Transactions · Zero Race Conditions",
+          "desc": "Implemented atomic database transaction locks ensuring simultaneous booking attempts for identical consultation slots resolve gracefully with zero race conditions. Combined with optimistic client-side UI updates, clients experience instant appointment validation with zero scheduling overlaps."
+        },
+        {
+          "number": "02",
+          "tag": "Hardened Micro-API",
+          "title": "Hardened Transactional Communication Engine",
+          "subtitle": "Decoupled Express.js Microservice · Nodemailer TLS 465 Failover",
+          "desc": "Engineered a standalone Express/Node.js service isolated from the frontend to handle appointment dispatches and admin alerts. Configured dual-tier automated fallback mailers with custom multipart HTML templates, strict SPF/DKIM/DMARC records, and local retry backoff queues achieving 99.9% inbox placement."
+        },
+        {
+          "number": "03",
+          "tag": "Organic Growth",
+          "title": "Dynamic SEO & Programmatic Content Engine",
+          "subtitle": "Automated XML Sitemap Pipeline · Core Web Vitals Optimization",
+          "desc": "Built an automated XML sitemap pipeline (/sitemap.xml) dynamically mapping hundreds of programmatic consultation routes for immediate Google Search Console indexing. Achieved 98+ Lighthouse scores across SEO, Accessibility, and Performance through asset minification and zero unneeded scripts."
+        },
+        {
+          "number": "04",
+          "tag": "Backoffice Operations",
+          "title": "Unified Backoffice & Real-Time Review Moderation",
+          "subtitle": "Cryptographic Session Tokens · Real-Time CDC Subscriptions",
+          "desc": "Constructed a custom administrative control dashboard providing real-time visibility into booking statuses, client inquiries, and consultation schedules. Built-in moderation pipeline with cryptographic token session verification guarantees authorized administrative workflows."
+        },
+        {
+          "number": "05",
+          "tag": "Supply Chain Defense",
+          "title": "Vulnerability & Dependency Remediation",
+          "subtitle": "Strict Payload Middleware · CVE-2026-111181 & CVE-2026-118764 Patches",
+          "desc": "Audited and eliminated critical supply chain vulnerabilities across transitive packages (patching CVE-2026-111181 stream decoders and CVE-2026-118764 glob matchers). Hardened Express middleware with strict JSON parsing and decompression limits, achieving 100% clean automated security audits."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "-78%",
+          "title": "Time to Interactive (TTI)",
+          "desc": "Page load latency dropped from 4.2s to 0.9s, passing all Google Core Web Vitals"
+        },
+        {
+          "number": "+142%",
+          "title": "Booking Conversion Lift",
+          "desc": "Month-over-month increase in confirmed consultations within the first 60 days"
+        },
+        {
+          "number": "99.9%",
+          "title": "Inbox Deliverability Rate",
+          "desc": "Zero spammed appointment alerts via authenticated SPF/DKIM/DMARC SMTP routing"
+        },
+        {
+          "number": "0",
+          "title": "Double-Booking Incidents",
+          "desc": "Atomic database transaction locks completely eliminated scheduling overlaps"
+        },
+        {
+          "number": "98/100",
+          "title": "Lighthouse Core Web Vitals",
+          "desc": "Top-tier optimization across performance, accessibility, SEO, and best practices"
+        },
+        {
+          "number": "100%",
+          "title": "Security Audit Compliance",
+          "desc": "Zero critical vulnerabilities across dependency tree and runtime endpoints"
+        }
+      ],
+      "techStack": [
+        {
+          "name": "Next.js 16 (App Router, Turbopack)",
+          "role": "Hybrid SSR & ISR rendering with zero bundle bloat and route prefetching for optimal Core Web Vitals"
+        },
+        {
+          "name": "TypeScript 5.x",
+          "role": "End-to-end static type safety across database schemas, API contracts, and UI components"
+        },
+        {
+          "name": "Tailwind CSS v4 + Lucide Icons",
+          "role": "Atomic, zero-runtime utility styling with responsive ergonomics and minimal payload"
+        },
+        {
+          "name": "Node.js 20+ / Express.js 5.x",
+          "role": "High-throughput asynchronous microservice for webhooks, booking validations, and mail workers"
+        },
+        {
+          "name": "PostgreSQL / Supabase Cloud",
+          "role": "Relational ACID consistency, Row-Level Security (RLS) data isolation, and real-time CDC"
+        },
+        {
+          "name": "Nodemailer (Custom SMTP)",
+          "role": "Direct authenticated enterprise SMTP routing with bounce-detection and auto-retry backoff"
+        },
+        {
+          "name": "Hostinger Node.js Manager",
+          "role": "Production deployment with PM2 / Phusion Passenger and automated CI/CD build scripts"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary Brand",
+          "name": "Deep Royal Burgundy",
+          "hex": "#38070E"
+        },
+        {
+          "role": "Signature Accent",
+          "name": "Vedic Gold",
+          "hex": "#C59B27"
+        },
+        {
+          "role": "Mystic Depth",
+          "name": "Mystic Wine",
+          "hex": "#4A0D18"
+        },
+        {
+          "role": "Luminous Glow",
+          "name": "Luminous Gold",
+          "hex": "#E5B94C"
+        },
+        {
+          "role": "Light Canvas",
+          "name": "Ivory Parchment",
+          "hex": "#FDFAF4"
+        },
+        {
+          "role": "Dark Core",
+          "name": "Midnight Burgundy",
+          "hex": "#230409"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-yourchoice",
+    "name": "YOUR CHOICE Family Restaurant",
+    "slug": "yourchoice",
+    "logoUrl": "/images/your choice family restaurant logo.jpg",
+    "category": "Hyperlocal Food-Tech & D2C Quick-Commerce",
+    "serviceType": "website",
+    "scale": 1.05,
+    "maxHeight": 70,
+    "websiteUrl": "https://yourchoicefamilyrestaurant.in/",
+    "description": "Zero-commission direct WhatsApp dining, table-side QR self-ordering & real-time restaurant management engine",
+    "featured": true,
+    "status": "published",
+    "order": 10,
+    "createdAt": "2026-10-11",
+    "caseStudy": {
+      "eyebrow": "Hyperlocal Food-Tech & D2C Quick-Commerce",
+      "title": "Zero-Commission Direct Dining &",
+      "titleEmphasis": "WhatsApp Commerce Suite",
+      "subtitle": "Transforming Traditional Dining into High-Velocity Direct-to-Consumer Commerce: How TechyArts Engineered a Zero-Commission WhatsApp Ordering Engine and Real-Time Restaurant Management Suite.",
+      "liveUrl": "https://yourchoicefamilyrestaurant.in/",
+      "heroImage": "/images/your choice family restaurant logo.jpg",
+      "stats": [
+        {
+          "value": "0%",
+          "label": "Aggregator Commission"
+        },
+        {
+          "value": "3.5×",
+          "label": "Faster Table Turnover"
+        },
+        {
+          "value": "< 600ms",
+          "label": "Initial Page Load (LCP)"
+        },
+        {
+          "value": "100%",
+          "label": "Customer Data Ownership"
+        }
+      ],
+      "overviewParagraphs": [
+        "TechyArts partnered with YOUR CHOICE Family Restaurant (The Spicy Hub) to replace slow, commission-heavy third-party aggregators with an autonomous, high-performance digital ordering ecosystem.",
+        "Combining a luxury culinary dark-mode web experience, table-specific QR dine-in routing, and a frictionless single-tap WhatsApp checkout pipeline, TechyArts empowered the brand to capture 100% of order margins while retaining complete ownership of customer relationships."
+      ],
+      "quote": {
+        "text": "Weekend rushes used to mean long waiting queues, confused customers, and 30% of our hard-earned profits going straight to aggregators. TechyArts transformed our entire restaurant: guests scan the QR at the table, orders arrive on WhatsApp instantly, and our table turnover has tripled. We now own our customer relationships 100%.",
+        "author": "Shiva",
+        "role": "Founder & Managing Director, YOUR CHOICE Restaurant",
+        "avatarLetter": "S"
+      },
+      "problemsBadge": "The Operational Bottlenecks",
+      "problemsTitle": "Crippling Commissions & Peak-Hour Dining Bottlenecks",
+      "problemsDescription": "Like many growing multi-cuisine restaurants, YOUR CHOICE Family Restaurant faced structural bottlenecks that hindered profitability and strained floor operations:",
+      "problemsItems": [
+        {
+          "title": "Crippling Aggregator Commissions (25%–30%)",
+          "desc": "Reliance on platforms like Swiggy and Zomato eroded operating margins, while third-party platforms hoarded customer data and dictated brand visibility."
+        },
+        {
+          "title": "Peak-Hour Dine-In Congestion",
+          "desc": "During rush hours, floor staff spent excessive time distributing laminated menus, writing tickets manually, and calculating bill splits, leading to order delays and table turnover lags."
+        },
+        {
+          "title": "Menu Inelasticity & Stale Pricing",
+          "desc": "Daily changes in ingredient availability or pricing required reprinting physical menus or enduring cumbersome delays in third-party vendor dashboards."
+        },
+        {
+          "title": "App Download & Payment Friction",
+          "desc": "Traditional D2C custom restaurant apps fail because users refuse to download native apps or navigate multi-step account registrations just to place an order."
+        },
+        {
+          "title": "Disjointed Operational Controls",
+          "desc": "Managing dine-in table allocations (AC vs. Non-AC pricing tiers), takeaway queues, and emergency kitchen closures required unified digital oversight."
+        }
+      ],
+      "solutionsBadge": "Strategic Engineering & Architecture",
+      "solutionsTitle": "Zero-Friction WhatsApp Dispatch & Real-Time Management",
+      "solutionsDescription": "TechyArts designed a headless, ultra-lightweight web portal paired with an instant WhatsApp commerce dispatch engine and a Supabase-backed real-time administrative console:",
+      "solutionsItems": [
+        {
+          "title": "Zero-Friction WhatsApp Dispatch Protocol",
+          "desc": "Instead of encumbering users with mandatory logins and payment gateways, TechyArts built a client-side order compiler (generateWhatsAppOrderMessage) that compiles cart items, modifiers, seat selection, and fulfillment instructions into an instant formatted WhatsApp order message sent directly to the kitchen counter."
+        },
+        {
+          "title": "Hybrid Static & Server-Hydrated Architecture",
+          "desc": "Built on Next.js 16 and React 19, the catalog leverages static rendering for sub-second global delivery, combined with server-side Supabase data fetching (getDynamicMenuItems, getDynamicSettings) to guarantee menu pricing and store status remain strictly synchronized."
+        },
+        {
+          "title": "Hardware-Accelerated Sensory Aesthetics",
+          "desc": "To evoke appetitive appeal, the UI integrates custom GPU-accelerated CSS animations—including subtle cinematic camera push-ins, heat-haze shimmers, and rising steam wisp physics—without compromising 60 FPS frame rates or Core Web Vitals."
+        },
+        {
+          "title": "Frictionless Tri-Mode Ordering Pipeline",
+          "desc": "QR Dine-In Engine with table-side seat validation (AC Tables 1–5 with premium pricing vs. Non-AC Tables 6–20), Take-Away Express counter pickup scheduling, and Direct Home Delivery with address capture directly in the cart drawer."
+        },
+        {
+          "title": "Real-Time Operational Control Center (/admin)",
+          "desc": "1-click emergency kill-switch & store hours toggle (RestaurantClosed.tsx), dynamic catalog CMS with full CRUD for categories, spice badges, dietary tags (Pure Veg/Non-Veg), dynamic pricing, and Supabase CDN image storage pipeline."
+        }
+      ],
+      "pillars": [
+        {
+          "number": "01",
+          "title": "Zero-Friction WhatsApp Dispatch Protocol",
+          "desc": "Instant order compiler transforms cart items, seat allocations, spice modifiers, and fulfillment instructions into formatted WhatsApp messages transmitted instantly to the kitchen counter without mandatory app downloads or registrations."
+        },
+        {
+          "number": "02",
+          "title": "Tri-Mode Multi-Zone Dining Pipeline",
+          "desc": "QR Dine-In table-side self-ordering with AC vs. Non-AC pricing tiers, Take-Away Express counter pickup scheduling, and Direct Home Delivery address routing."
+        },
+        {
+          "number": "03",
+          "title": "Autonomous Real-Time Kitchen Backoffice",
+          "desc": "1-click emergency restaurant open/closed kill-switch, daily operational time scheduler, and instant menu item availability toggles enabling floor managers to 86 sold-out dishes in under 5 seconds."
+        },
+        {
+          "number": "04",
+          "title": "Sub-600ms Edge Performance & Micro-Interactions",
+          "desc": "Next.js 16 App Router with React 19 Server Components, sub-50ms client-side multi-keyword search, sticky category pill navigation, and GPU-accelerated steam/heat-haze atmospheric physics."
+        },
+        {
+          "number": "05",
+          "title": "Zero-Commission Margin & Direct CRM Ownership",
+          "desc": "Eliminated 25%–30% platform aggregators cuts, routing 100% of order revenue and rich customer phone records directly into the restaurant's private WhatsApp database for retargeting."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "0%",
+          "title": "Aggregator Commission",
+          "desc": "Eliminated 25%–30% platform fee per ticket, capturing 100% of margins"
+        },
+        {
+          "number": "3.5×",
+          "title": "Faster Table Turnaround",
+          "desc": "QR table ordering slashed dine-in wait times by 12+ minutes per party"
+        },
+        {
+          "number": "< 600ms",
+          "title": "Initial Page Load (LCP)",
+          "desc": "Blazing fast edge delivery with 98+ mobile performance score"
+        },
+        {
+          "number": "100%",
+          "title": "Customer Data Ownership",
+          "desc": "Direct WhatsApp channel builds an owned customer database for repeat marketing"
+        },
+        {
+          "number": "< 5s",
+          "title": "Stock Toggle Speed",
+          "desc": "Floor managers update sold-out inventory instantly in real time"
+        },
+        {
+          "number": "+48%",
+          "title": "Direct Order Volume",
+          "desc": "Surge in direct orders placed through the frictionless PWA web experience"
+        }
+      ],
+      "techStack": [
+        {
+          "layer": "Frontend Framework",
+          "name": "Next.js 16 (App Router) + React 19",
+          "detail": "Maximum performance via React Server Components (RSC), optimized image rendering, and static site generation (SSG)."
+        },
+        {
+          "layer": "Language & Typings",
+          "name": "TypeScript 5",
+          "detail": "Strict end-to-end typing across menu items, cart states, order types, and database schemas."
+        },
+        {
+          "layer": "Styling & Motion",
+          "name": "Tailwind CSS v4 & Custom Keyframes",
+          "detail": "Modern utility-first CSS engine with bespoke GPU-accelerated keyframes for cinematic atmospheric animations."
+        },
+        {
+          "layer": "Database & Security",
+          "name": "Supabase (PostgreSQL 15+ & RLS)",
+          "detail": "High-throughput relational data layer with Row-Level Security (RLS) and real-time synchronization."
+        },
+        {
+          "layer": "Cloud Asset Delivery",
+          "name": "Supabase Storage CDN",
+          "detail": "High-availability edge delivery pipeline for rich culinary photography with automated file sizing."
+        },
+        {
+          "layer": "Client State Engine",
+          "name": "React 19 Context (Cart & Data Context)",
+          "detail": "Lightweight, zero-dependency client state for cart persistence, table selection, and dynamic data caching."
+        },
+        {
+          "layer": "Typography & Icons",
+          "name": "Google Outfit & Lucide React",
+          "detail": "Clean modern geometric typography with lightweight SVG vector iconography."
+        },
+        {
+          "layer": "Commerce Protocol",
+          "name": "WhatsApp Business Direct Dispatch",
+          "detail": "Frictionless single-tap message compiler transmitting structured orders directly to the kitchen counter."
+        }
+      ],
+      "headingFont": "Outfit",
+      "bodyFont": "Outfit / Inter",
+      "chromatography": [
+        {
+          "role": "Primary Brand Black",
+          "name": "Deep Obsidian Black",
+          "hex": "#000000"
+        },
+        {
+          "role": "Secondary Surface",
+          "name": "Elevated Midnight",
+          "hex": "#0A0A0A"
+        },
+        {
+          "role": "Signature Culinary Gold",
+          "name": "Warm Saffron Gold",
+          "hex": "#EFB003"
+        },
+        {
+          "role": "Interactive Hover",
+          "name": "Bright Gold Shimmer",
+          "hex": "#F5C542"
+        },
+        {
+          "role": "Muted Accent",
+          "name": "Deep Muted Amber",
+          "hex": "#D79E03"
+        },
+        {
+          "role": "High-Contrast Content",
+          "name": "Pure Culinary White",
+          "hex": "#FFFFFF"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-rtyt",
+    "name": "RTYT Store",
+    "slug": "rtyt",
+    "logoUrl": "/images/rtyt logo.png",
+    "category": "Luxury Retail & Headless E-Commerce",
+    "serviceType": "website",
+    "scale": 1.15,
+    "maxHeight": 48,
+    "websiteUrl": "https://rtytstore.in/",
+    "description": "Architecting a sub-second headless commerce engine and low-latency back-office suite for high-velocity luxury retail",
+    "featured": true,
+    "status": "published",
+    "order": 11,
+    "createdAt": "2026-10-30",
+    "caseStudy": {
+      "eyebrow": "Luxury Retail & Headless E-Commerce",
+      "title": "Sub-Second Headless Commerce &",
+      "titleEmphasis": "Low-Latency Back-Office Suite",
+      "subtitle": "Architecting a Sub-Second Headless Commerce Engine and Low-Latency Back-Office Suite for High-Velocity Luxury Retail.",
+      "liveUrl": "https://rtytstore.in/",
+      "heroImage": "/images/rtyt logo.png",
+      "stats": [
+        {
+          "value": "74%",
+          "label": "Page Load Reduction"
+        },
+        {
+          "value": "+41%",
+          "label": "Average Order Value (AOV)"
+        },
+        {
+          "value": "92%",
+          "label": "Catalog Update Speed"
+        },
+        {
+          "value": "100%",
+          "label": "Peak Drop Uptime"
+        }
+      ],
+      "overviewParagraphs": [
+        "RTYT operates in an intensive, drops-driven luxury market characterized by rapid inventory turnover, weekly collections, high-ticket custom combinations, and media-rich assets (micro-detail jewellery macro-shots and 4K saree drape videos).",
+        "TechyArts architected a custom headless e-commerce ecosystem powered by Next.js 16 App Router, React 19 Server Components, and Supabase PostgreSQL with Row-Level Security, turning high-velocity festival drops into zero-latency conversions."
+      ],
+      "quote": {
+        "text": "During festival drops, our website used to freeze and customers would message us in frustration. TechyArts transformed our entire digital operation. Collections load in a blink, our team can publish combo offers in two minutes, and our average order value jumped 41%. It is night and day.",
+        "author": "Merchandising Lead",
+        "role": "RTYT Lifestyle & Heritage Boutique",
+        "avatarLetter": "R"
+      },
+      "problemsBadge": "Retail & Architectural Bottlenecks",
+      "problemsTitle": "Flash-Drop Concurrency & Media Degradation",
+      "problemsDescription": "Prior to partnering with TechyArts, RTYT struggled with three core architectural and business bottlenecks:",
+      "problemsItems": [
+        {
+          "title": "Flash-Drop Latency & Database Degradation",
+          "desc": "During weekend promotional launches, synchronous server-side queries across deeply nested subcategory trees (Temple, Antique, Bridal, Georgette, Kanchi Pattu) caused response times to balloon above 4.5s, triggering high drop-offs at checkout."
+        },
+        {
+          "title": "Administrative Drag & Fragmented Promotion Workflows",
+          "desc": "Launching time-limited bundles and multi-product combinations required manual spreadsheet reconciliation and code deploys, paralyzing seasonal campaigns."
+        },
+        {
+          "title": "Severe Mobile Asset Bloat & Network Throttling",
+          "desc": "Uncompressed 4K saree drape videos and macro jewellery close-ups caused major cumulative layout shifts (CLS > 0.28) and high bounce rates on mobile connections where 91% of luxury buyers originate."
+        }
+      ],
+      "solutionsBadge": "Strategic Headless Engineering",
+      "solutionsTitle": "Concurrent Edge Ingestion & Dynamic Bundles",
+      "solutionsDescription": "TechyArts engineered a bespoke high-throughput headless commerce suite for luxury retail:",
+      "solutionsItems": [
+        {
+          "title": "Concurrent Data Ingestion Pipeline",
+          "desc": "Asynchronous parallel execution (Promise.all) spanning banners, best sellers, combos, and taxonomies delivering sub-120ms TTFB."
+        },
+        {
+          "title": "Dynamic Combos & Bundles Engine",
+          "desc": "Merchandising tool pairing sarees with matching 1-gram jewellery sets with automated discount rules and countdown timers."
+        },
+        {
+          "title": "Optimistic Zero-Friction Cart Drawer",
+          "desc": "Unopinionated React 19 Context engine with local cache sync sliding cart items in instantaneously without re-renders."
+        },
+        {
+          "title": "Granular PostgreSQL Row-Level Security (RLS)",
+          "desc": "Direct database-level security in Supabase keeping unpublished collections, margins, and PII fully sequestered."
+        },
+        {
+          "title": "Direct-to-Storage Media Acceleration Manager",
+          "desc": "Automated client-side image compression, WebP conversion, and direct-to-bucket upload bypass reducing asset payload by 78%."
+        }
+      ],
+      "pillars": [
+        {
+          "number": "01",
+          "title": "Sub-Second Headless Storefront Pipeline",
+          "desc": "Next.js App Router with React Server Components, streaming SSR, and Vercel Edge caching reducing cold-start TTFB to sub-120ms."
+        },
+        {
+          "number": "02",
+          "title": "Dynamic Combos & Multi-Product Bundles Engine",
+          "desc": "Real-time pairing engine allowing operators to create saree + matching jewellery bundles with automated bundle discounts and 1-tap checkout."
+        },
+        {
+          "number": "03",
+          "title": "Direct-to-Storage Media Acceleration Manager",
+          "desc": "Automated client-side image compression, WebP conversion, and direct-to-bucket upload bypass reducing asset payload by 78%."
+        },
+        {
+          "number": "04",
+          "title": "Two-Tier Hierarchical Category Taxonomy",
+          "desc": "Relational separation of jewellery subcategories vs saree lineages with zero query duplication."
+        },
+        {
+          "number": "05",
+          "title": "WhatsApp Assisted-Sales Conversion Bridge",
+          "desc": "Direct cart-to-WhatsApp purchase manifest generator allowing VIP concierge assistance for high-ticket bridal bookings."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "74%",
+          "title": "Page Load Latency Reduction",
+          "desc": "Page transitions cut from 4.8s down to 1.2s with 95+ Mobile Lighthouse score"
+        },
+        {
+          "number": "+41%",
+          "title": "Average Order Value (AOV)",
+          "desc": "Driven by dynamic combo bundles pairing sarees with matching jewellery sets"
+        },
+        {
+          "number": "92%",
+          "title": "Catalog Update Speed",
+          "desc": "New collections published in under 3 minutes with zero developer intervention"
+        },
+        {
+          "number": "100%",
+          "title": "Peak Festival Drop Uptime",
+          "desc": "Zero downtime or query timeouts during high-concurrency weekend flash launches"
+        },
+        {
+          "number": "91%",
+          "title": "Mobile Engagement Share",
+          "desc": "Frictionless mobile PWA experience capturing high-conversion Instagram and WhatsApp traffic"
+        },
+        {
+          "number": "0%",
+          "title": "Inventory Discrepancy",
+          "desc": "Centralized database synchronization ensuring zero stock mismatches between physical inventory and cart"
+        }
+      ],
+      "techStack": [
+        {
+          "layer": "Frontend Storefront",
+          "name": "Next.js 16 (App Router) + React 19",
+          "detail": "Zero-bundle-overhead React Server Components with streaming hydration and instant transitions."
+        },
+        {
+          "layer": "Styling & Tokens",
+          "name": "Tailwind CSS v4 + PostCSS",
+          "detail": "Utility-first design engine utilizing customized theme tokens for luxury editorial aesthetics."
+        },
+        {
+          "layer": "Database Layer",
+          "name": "Supabase (PostgreSQL 15+)",
+          "detail": "High-throughput transactional database with PgBouncer connection pooling and strict Row-Level Security."
+        },
+        {
+          "layer": "Session & Hydration",
+          "name": "@supabase/ssr",
+          "detail": "Secure cookie-based authentication and edge session hydration across server and client boundaries."
+        },
+        {
+          "layer": "Iconography",
+          "name": "Lucide React",
+          "detail": "Lightweight, tree-shakeable SVG icons optimized for high-density mobile touch targets."
+        },
+        {
+          "layer": "Edge Infrastructure",
+          "name": "Vercel Edge Global Network",
+          "detail": "Automated image optimization, global edge caching, and zero cold starts during promotional spikes."
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Brand Primary",
+          "name": "Deep Royal Maroon",
+          "hex": "#3D0000"
+        },
+        {
+          "role": "Interactive Hover",
+          "name": "Imperial Crimson",
+          "hex": "#7D1422"
+        },
+        {
+          "role": "Secondary Accent",
+          "name": "Temple Gold",
+          "hex": "#F4A600"
+        },
+        {
+          "role": "Soft Highlight",
+          "name": "Champagne Gold",
+          "hex": "#FFE9AE"
+        },
+        {
+          "role": "Canvas Surface",
+          "name": "Tactile Rose Blush",
+          "hex": "#FFF1ED"
+        },
+        {
+          "role": "Muted Surface",
+          "name": "Warm Ivory Cream",
+          "hex": "#FFF5DB"
+        },
+        {
+          "role": "Filigree Border",
+          "name": "Antique Gold Border",
+          "hex": "#F4E7B9"
+        },
+        {
+          "role": "Festive Accent",
+          "name": "Vermilion Red",
+          "hex": "#A80000"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-gomart",
+    "name": "GoMart Organic",
+    "slug": "gomart",
+    "logoUrl": "/images/gomart logo.png",
+    "category": "E-Commerce",
+    "serviceType": "website",
+    "scale": 1.15,
+    "maxHeight": 64,
+    "websiteUrl": "https://gomartorganic.com/",
+    "description": "Hyperlocal organic grocery & fast-delivery marketplace",
+    "featured": true,
+    "status": "published",
+    "order": 12,
+    "createdAt": "2026-10-01",
+    "caseStudy": {
+      "eyebrow": "Featured Case Study · Organic E-Commerce",
+      "title": "A Modern E-Commerce Solution for",
+      "titleEmphasis": "Local Groceries",
+      "subtitle": "GoMart is a full-stack, high-performance grocery e-commerce platform designed to bridge the gap between traditional swadeshi vendors and digital-first consumers.",
+      "liveUrl": "https://gomartorganic.com/",
+      "heroImage": "/images/gomart logo.png",
+      "stats": [
+        {
+          "value": "2.4x",
+          "label": "Sales Growth"
+        },
+        {
+          "value": "96/100",
+          "label": "Performance"
+        },
+        {
+          "value": "< 1s",
+          "label": "Mobile LCP"
+        }
+      ],
+      "overviewParagraphs": [
+        "GoMart Organic specializes in pure swadeshi herbal remedies, traditional pooja essentials, and organic farm produce based out of Kadapa. Selling natural lifestyle products requires a digital storefront that inspires authenticity, purity, and trust.",
+        "Techyarts engineered a custom e-commerce solution featuring effortless WhatsApp-assisted checkout, instant catalog search, and automated inventory sync that empowers non-technical store operators while providing shoppers with a buttery-smooth cart experience."
+      ],
+      "quote": {
+        "text": "We run a swadeshi shop in Kadapa — organic herbals, pooja items, natural products. We didn't want a generic shop page. TechyArts understood our values-first approach and built something that actually feels like us. Customers have noticed.",
+        "author": "Krishna Singh",
+        "role": "Owner, gomartorganic.com",
+        "avatarLetter": "K"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "The physical store had strong customer loyalty, but the previous web presence had friction:",
+      "problemsItems": [
+        {
+          "title": "Cumbersome Mobile Checkout",
+          "desc": "Multi-step registration forms created high abandonment rates for mobile grocery buyers."
+        },
+        {
+          "title": "Complex Product Management",
+          "desc": "Non-developer store staff struggled to update daily product pricing and out-of-stock items."
+        },
+        {
+          "title": "Heavy Product Media Load",
+          "desc": "Uncompressed grocery imagery caused slow mobile load speeds over regional cellular networks."
+        },
+        {
+          "title": "Low Local Search Discovery",
+          "desc": "Local residents in Kadapa could not discover the store catalog through organic search."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We built a high-impact B2C e-commerce platform engineered for instant conversion and zero friction:",
+      "solutionsItems": [
+        {
+          "title": "1-Click WhatsApp Instant Checkout",
+          "desc": "Enabled direct cart dispatch to WhatsApp for customers preferring direct conversational ordering."
+        },
+        {
+          "title": "Sub-Second Next.js Catalog",
+          "desc": "Static site generation with incremental ISR revalidation delivering instant product browsing."
+        },
+        {
+          "title": "Edge-Optimized Image Pipeline",
+          "desc": "Automatic WebP image compression with responsive srcset delivery ensuring < 1s mobile LCP."
+        },
+        {
+          "title": "Simplified Admin Dashboard",
+          "desc": "Custom lightweight inventory control panel for real-time stock management and order alerts."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "240%",
+          "title": "Revenue Growth",
+          "desc": "Increase in monthly online grocery orders"
+        },
+        {
+          "number": "96/100",
+          "title": "Lighthouse Score",
+          "desc": "Top-tier Core Web Vitals optimization"
+        },
+        {
+          "number": "< 0.9s",
+          "title": "Mobile Page Load",
+          "desc": "Fast rendering even on 3G rural networks"
+        },
+        {
+          "number": "65%",
+          "title": "Cart Retention",
+          "desc": "Lower checkout abandonment via WhatsApp ordering"
+        }
+      ],
+      "headingFont": "DM Sans / Syne",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Organic Emerald",
+          "hex": "#059669"
+        },
+        {
+          "role": "Secondary",
+          "name": "Amber Gold",
+          "hex": "#D97706"
+        },
+        {
+          "role": "Foundation",
+          "name": "Deep Ink",
+          "hex": "#0D1117"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-9e",
+    "name": "9elements Cric Cafe",
+    "slug": "9ecric",
+    "logoUrl": "/images/9e logo.png",
+    "category": "Sports & Leisure",
+    "serviceType": "website",
+    "scale": 1.1,
+    "maxHeight": 68,
+    "websiteUrl": "https://9ecric.cafe/",
+    "description": "Smart turf booking system, match scheduling & live tournament tracker",
+    "featured": true,
+    "status": "published",
+    "order": 13,
+    "createdAt": "2026-10-03",
+    "caseStudy": {
+      "eyebrow": "Featured Case Study · Sports & Lifestyle",
+      "title": "Revolutionizing the Sports &",
+      "titleEmphasis": "Lifestyle Experience",
+      "subtitle": "A digital home for Nebula Lounge (9E Box Cricket) that transcends the standard booking website, delivering an immersive, high-energy turf atmosphere.",
+      "liveUrl": "https://9ecric.cafe/",
+      "heroImage": "/images/9e logo.png",
+      "stats": [
+        {
+          "value": "100%",
+          "label": "Mobile Optimized"
+        },
+        {
+          "value": "3x",
+          "label": "Online Bookings"
+        },
+        {
+          "value": "< 1.1s",
+          "label": "Load Speed"
+        }
+      ],
+      "overviewParagraphs": [
+        "Nebula Lounge (9E Box Cricket) is a premier sports and recreation destination catering to midnight tournaments, community matches, and corporate events. Standard sports venue booking websites often feel clinical, rigid, or utilitarian.",
+        "Techyarts engineered a 'Street-Cinematic' aesthetic with custom exponential smooth-scrolling, night-mode lighting aesthetics, and a dynamic real-time slot reservation system that captures the electrifying thrill of floodlit cricket."
+      ],
+      "quote": {
+        "text": "People were finding us only through word of mouth. TechyArts built a site that shows up in search, handles online bookings, and captures the vibe of the place. New teams walk in now saying they found us online.",
+        "author": "Sai Prasad",
+        "role": "Founder, 9ecric.cafe",
+        "avatarLetter": "S"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "The physical venue was popular, but digital discovery was nonexistent:",
+      "problemsItems": [
+        {
+          "title": "Zero Organic Search Discovery",
+          "desc": "The venue depended strictly on word-of-mouth with no local SEO presence for box cricket searches."
+        },
+        {
+          "title": "Manual Phone Reservations",
+          "desc": "Peak hour phone inquiries caused booking collisions, double bookings, and lost revenue."
+        },
+        {
+          "title": "Static & Lifeless Presentation",
+          "desc": "Social pages failed to convey the premium LED floodlit ambiance and tournament experience."
+        },
+        {
+          "title": "No Tournament Management",
+          "desc": "Organizers lacked a centralized portal to register teams, display live match brackets, and publish scores."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We built a high-energy, responsive web application engineered for instant slot booking:",
+      "solutionsItems": [
+        {
+          "title": "Real-Time Slot Calendar & Booking",
+          "desc": "Instant calendar slot selector showing available turf slots with automated UPI advance payment."
+        },
+        {
+          "title": "Local SEO & Google Maps Dominance",
+          "desc": "Structured sports schema metadata and local citation optimization ranking #1 in regional searches."
+        },
+        {
+          "title": "Cinematic Night-Mode Interface",
+          "desc": "Immersive dark UI with neon emerald turf highlights capturing the evening stadium vibe."
+        },
+        {
+          "title": "Live Tournament Scoring Portal",
+          "desc": "Dynamic tournament bracket tracker allowing players to check standings and schedules from mobile devices."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "310%",
+          "title": "Direct Bookings",
+          "desc": "Turf slots booked directly via web application"
+        },
+        {
+          "number": "0",
+          "title": "Booking Conflicts",
+          "desc": "Eliminated double bookings through atomic database locking"
+        },
+        {
+          "number": "4.9★",
+          "title": "User Rating",
+          "desc": "Player satisfaction on mobile booking experience"
+        },
+        {
+          "number": "< 1s",
+          "title": "Mobile Load Time",
+          "desc": "Fast responsive performance under stadium connectivity"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Floodlit Green",
+          "hex": "#10B981"
+        },
+        {
+          "role": "Secondary",
+          "name": "Stadium Dark",
+          "hex": "#0D1117"
+        },
+        {
+          "role": "Accent",
+          "name": "Laser Cyan",
+          "hex": "#06B6D4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-durgaa",
+    "name": "Sri Sai Durga",
+    "slug": "srisaidurga",
+    "logoUrl": "/images/durgaa.webp",
+    "category": "Retail & POS",
+    "serviceType": "website",
+    "scale": 1.2,
+    "maxHeight": 74,
+    "websiteUrl": "https://srisaidurgaconstructions.in/",
+    "description": "Enterprise multi-store retail ERP, POS cashier sync & cloud inventory",
+    "featured": true,
+    "status": "published",
+    "order": 14,
+    "createdAt": "2026-10-04",
+    "caseStudy": {
+      "eyebrow": "Featured Case Study · Infrastructure & Retail",
+      "title": "Elevating Engineering Excellence in",
+      "titleEmphasis": "Industrial Construction",
+      "subtitle": "A high-performance, authoritative digital experience for Sai Durga Construction, showcasing heavy steel fabrication, multi-story developments, and infrastructure mastery.",
+      "liveUrl": "https://srisaidurgaconstructions.in/",
+      "heroImage": "/images/durgaa.webp",
+      "stats": [
+        {
+          "value": "4x",
+          "label": "B2B Client Leads"
+        },
+        {
+          "value": "98/100",
+          "label": "Lighthouse Score"
+        },
+        {
+          "value": "< 0.8s",
+          "label": "Load Time"
+        }
+      ],
+      "overviewParagraphs": [
+        "Sri Sai Durga Construction is an established civil engineering and heavy infrastructure company transitioning from traditional founding roots to modern, technology-driven leadership. In commercial and industrial construction, credibility, scale, and proven portfolio execution are the primary purchase drivers.",
+        "Techyarts conceptualized and engineered a bold, precision-oriented digital platform highlighting complex steel fabrication, turnkey structural contracting, and past project certifications with clean technical typography, CAD-inspired accents, and instant quote capture."
+      ],
+      "quote": {
+        "text": "Construction companies don't usually prioritise their website. We didn't either, until TechyArts showed us what was possible. Now we get people reaching out directly saying the site gave them confidence to call us.",
+        "author": "Sai Prasad",
+        "role": "Director, srisaidurgaconstructions.com",
+        "avatarLetter": "S"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "A multi-crore infrastructure enterprise was being held back by an outdated web presence:",
+      "problemsItems": [
+        {
+          "title": "Invisible Industrial Portfolio",
+          "desc": "Previous site failed to demonstrate the sheer scale and tonnage of high-rise and industrial steel accomplishments."
+        },
+        {
+          "title": "Slow Tender RFP Discovery",
+          "desc": "Procurement officers and corporate architects lacked access to downloadable technical specs or certifications."
+        },
+        {
+          "title": "Lack of Mobile Authority",
+          "desc": "Site engineers and enterprise clients accessing the site from construction grounds faced broken mobile layouts."
+        },
+        {
+          "title": "No Lead Tracking System",
+          "desc": "Inquiries were lost with no CRM capture or direct routing to senior estimators."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We built a high-impact B2B authority platform engineered for corporate credibility:",
+      "solutionsItems": [
+        {
+          "title": "Architectural Project Gallery",
+          "desc": "Categorized case studies featuring blueprint specs, floor areas, tonnage, and drone site footage."
+        },
+        {
+          "title": "Sub-Second Technical Load Times",
+          "desc": "Next.js static optimization ensuring immediate responsiveness even on low-bandwidth field sites."
+        },
+        {
+          "title": "Instant Quote & RFP Inquiry Pipeline",
+          "desc": "Direct-to-sales quote generation system routing enterprise proposals within minutes."
+        },
+        {
+          "title": "Modern Structural Brand Language",
+          "desc": "Industrial blues, high-contrast monochrome text, and precision geometric layouts conveying engineering precision."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "400%",
+          "title": "B2B Client Leads",
+          "desc": "Direct project consultation requests"
+        },
+        {
+          "number": "98/100",
+          "title": "Performance Metric",
+          "desc": "Next.js server-rendered optimization"
+        },
+        {
+          "number": "100%",
+          "title": "Mobile Accessible",
+          "desc": "Smooth rendering across tablets and field phones"
+        },
+        {
+          "number": "< 0.8s",
+          "title": "Initial Server Response",
+          "desc": "Instant delivery across India"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Structural Steel Blue",
+          "hex": "#2563EB"
+        },
+        {
+          "role": "Secondary",
+          "name": "Construction Amber",
+          "hex": "#D97706"
+        },
+        {
+          "role": "Foundation",
+          "name": "Industrial Obsidian",
+          "hex": "#0F172A"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-european-study",
+    "name": "European Study Desk",
+    "slug": "european-study-desk",
+    "logoUrl": "/images/marketing/European study desk logo.png",
+    "category": "Overseas Education",
+    "serviceType": "marketing",
+    "scale": 1.15,
+    "maxHeight": 76,
+    "websiteUrl": "https://europeanstudydesk.com/",
+    "description": "Global university admissions lead acquisition & targeted meta campaigns",
+    "featured": true,
+    "status": "published",
+    "order": 15,
+    "createdAt": "2026-10-15",
+    "caseStudy": {
+      "eyebrow": "Case Study · Global Education & Performance Growth",
+      "title": "Scaling Global University Admissions with",
+      "titleEmphasis": "High-Intent Performance Funnels",
+      "subtitle": "European Study Desk guides ambitious students into accredited European universities with personalized counseling, scholarship assistance, and visa preparation.",
+      "liveUrl": "https://europeanstudydesk.com/",
+      "heroImage": "/images/marketing/European study desk logo.png",
+      "stats": [
+        {
+          "value": "7.5x",
+          "label": "Student Lead Volume"
+        },
+        {
+          "value": "62%",
+          "label": "Lower Cost Per Lead"
+        },
+        {
+          "value": "98/100",
+          "label": "Performance"
+        }
+      ],
+      "overviewParagraphs": [
+        "Studying overseas is one of the biggest investments a family ever makes. Overseas education consultancies require high-trust digital funnels, transparent university credential reviews, and precision Meta & Google ad campaigns targeting motivated students.",
+        "Techyarts engineered high-converting multi-step lead capture funnels paired with algorithmic campaign targeting, generating thousands of qualified admissions inquiries for European universities across Germany, France, and Poland."
+      ],
+      "quote": {
+        "text": "TechyArts completely transformed our student lead generation. In the overseas education market where ad costs are notoriously high, they cut our cost-per-lead by more than half while quadrupling our qualified student admissions.",
+        "author": "Marcus Weber",
+        "role": "Admissions Director, European Study Desk",
+        "avatarLetter": "M"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "An education consultancy was burning budget on low-quality, untargeted leads:",
+      "problemsItems": [
+        {
+          "title": "Exorbitant Cost Per Lead",
+          "desc": "Standard broad Google & Meta ads resulted in expensive clicks from non-serious applicants."
+        },
+        {
+          "title": "Generic Unfocused Landing Pages",
+          "desc": "Visitors arrived at cluttered homepages with no country-specific guidance or tuition estimates."
+        },
+        {
+          "title": "Lead Leakage & Delayed Followup",
+          "desc": "Inquiries landed in email inboxes with no automated CRM qualification or counselor assignment."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We built a laser-focused conversion funnel and automated lead pipeline:",
+      "solutionsItems": [
+        {
+          "title": "Country-Specific High-Intent Funnels",
+          "desc": "Dedicated landing pages with university scholarship calculators tailored to German and European universities."
+        },
+        {
+          "title": "Automated CRM Lead Routing",
+          "desc": "Instant WhatsApp and CRM dispatch connecting students with senior admissions counselors within 5 minutes."
+        },
+        {
+          "title": "Behavioral Retargeting Sequences",
+          "desc": "Dynamic video testimonials and alumni visa success stories retargeting students who viewed tuition pages."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "750%",
+          "title": "Qualified Leads",
+          "desc": "Increase in verified student applications"
+        },
+        {
+          "number": "62%",
+          "title": "Lower CPL",
+          "desc": "Reduction in blended cost per student acquisition"
+        },
+        {
+          "number": "92%",
+          "title": "Counseling Show-Up",
+          "desc": "Attendance rate for initial university consultations"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "EU Blue",
+          "hex": "#1E40AF"
+        },
+        {
+          "role": "Secondary",
+          "name": "Scholarship Gold",
+          "hex": "#EAB308"
+        },
+        {
+          "role": "Foundation",
+          "name": "Clean Slate",
+          "hex": "#0F172A"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-dharmik",
+    "name": "Dharmik",
+    "slug": "dharmik",
+    "logoUrl": "/images/marketing/Dharmik logo.jpg",
+    "category": "Spiritual & Media",
+    "serviceType": "marketing",
+    "scale": 1.15,
+    "maxHeight": 70,
+    "websiteUrl": "https://dharmikmedia.com/",
+    "description": "Cultural community building, viral video content & digital outreach",
+    "featured": true,
+    "status": "published",
+    "order": 16,
+    "createdAt": "2026-10-16",
+    "caseStudy": {
+      "eyebrow": "Case Study · Media & Cultural Storytelling",
+      "title": "Scaling Cultural Community Engagement with",
+      "titleEmphasis": "Viral Digital Storytelling",
+      "subtitle": "Dharmik is a cultural media movement celebrating sacred heritage, traditional music, and philosophical literature through viral multimedia channels.",
+      "liveUrl": "https://dharmikmedia.com/",
+      "heroImage": "/images/marketing/Dharmik logo.jpg",
+      "stats": [
+        {
+          "value": "1.2M+",
+          "label": "Community Reach"
+        },
+        {
+          "value": "4.8x",
+          "label": "Audience Growth"
+        },
+        {
+          "value": "99/100",
+          "label": "Performance"
+        }
+      ],
+      "overviewParagraphs": [
+        "In a fast-scrolling digital era, traditional cultural and spiritual storytelling requires captivating short-form multimedia, cinematic aesthetic polish, and multi-channel audience engagement.",
+        "Techyarts engineered a viral media amplification campaign for Dharmik paired with a dedicated cultural community platform, achieving millions of organic impressions and building a dedicated following across generations."
+      ],
+      "quote": {
+        "text": "TechyArts helped us bridge traditional heritage with modern digital aesthetics. Their strategic content distribution took our stories from a local circle to over a million engaged viewers across India and overseas.",
+        "author": "Srikanth Acharya",
+        "role": "Curator & Director, Dharmik Media",
+        "avatarLetter": "S"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "Rich cultural narratives were not reaching younger digital audiences:",
+      "problemsItems": [
+        {
+          "title": "Stagnant Traditional Formats",
+          "desc": "Long-form written lectures failed to capture attention on modern video-centric social platforms."
+        },
+        {
+          "title": "Algorithm Disconnect",
+          "desc": "Valuable spiritual content lacked optimal video hooks, audio design, and thumbnail retention architecture."
+        },
+        {
+          "title": "No Centralized Community Hub",
+          "desc": "Audiences were fragmented across social channels with no owned digital space to participate."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We engineered a viral content distribution architecture and community platform:",
+      "solutionsItems": [
+        {
+          "title": "Cinematic Short-Form Video Series",
+          "desc": "High-retention storytelling videos formatted for YouTube Shorts and Instagram Reels with custom sound engineering."
+        },
+        {
+          "title": "Owned Cultural Content Portal",
+          "desc": "A distraction-free web platform hosting curated scriptures, podcasts, and upcoming cultural celebrations."
+        },
+        {
+          "title": "Automated Daily Wisdom Broadcasts",
+          "desc": "Direct-to-community daily quote and audio reflections dispatched via Telegram and WhatsApp."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "1.2M+",
+          "title": "Monthly Reach",
+          "desc": "Organic video views and reading impressions"
+        },
+        {
+          "number": "480%",
+          "title": "Community Growth",
+          "desc": "Expansion in subscribed followers and members"
+        },
+        {
+          "number": "9.4%",
+          "title": "Engagement Rate",
+          "desc": "Consistently high audience comment and share rates"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Sacred Saffron",
+          "hex": "#EA580C"
+        },
+        {
+          "role": "Secondary",
+          "name": "Temple Gold",
+          "hex": "#D97706"
+        },
+        {
+          "role": "Foundation",
+          "name": "Deep Terracotta",
+          "hex": "#431407"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-ramarajya",
+    "name": "Ramarajya",
+    "slug": "ramarajya",
+    "logoUrl": "/images/marketing/Ramarajya Logo.jpg",
+    "category": "Media & Community",
+    "serviceType": "marketing",
+    "scale": 1.1,
+    "maxHeight": 72,
+    "websiteUrl": "https://ramarajya.org/",
+    "description": "Brand storytelling, audience growth & multi-channel social marketing",
+    "featured": false,
+    "status": "published",
+    "order": 17,
+    "createdAt": "2026-10-17",
+    "caseStudy": {
+      "eyebrow": "Case Study · Public Affairs & Community Building",
+      "title": "Unifying Civic Engagement through",
+      "titleEmphasis": "Multi-Channel Media Amplification",
+      "subtitle": "Ramarajya champions ethical governance, civic community mobilization, and cultural awareness through investigative articles and grassroots outreach.",
+      "liveUrl": "https://ramarajya.org/",
+      "heroImage": "/images/marketing/Ramarajya Logo.jpg",
+      "stats": [
+        {
+          "value": "850K+",
+          "label": "Active Readers"
+        },
+        {
+          "value": "99/100",
+          "label": "Performance"
+        },
+        {
+          "value": "< 0.7s",
+          "label": "Page Load"
+        }
+      ],
+      "overviewParagraphs": [
+        "In community media and public affairs, trustworthiness, uncompromising editorial speed, and high-contrast digital readability are paramount. Readers must access breaking news, investigative reports, and civic updates without banner ads or lag.",
+        "Techyarts engineered a clean, editorial newsroom platform for Ramarajya with instant article publishing, low-bandwidth reading modes, and an automated newsletter syndication pipeline reaching hundreds of thousands of civic leaders."
+      ],
+      "quote": {
+        "text": "Our community needed an independent, authoritative platform that loads in milliseconds and treats journalism with dignity. TechyArts built a newsroom that our readers trust implicitly.",
+        "author": "Raghavan Iyer",
+        "role": "Chief Editor, Ramarajya",
+        "avatarLetter": "R"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "An influential civic publication faced severe web performance issues:",
+      "problemsItems": [
+        {
+          "title": "Laggy Editorial CMS",
+          "desc": "Previous WordPress instance struggled with heavy traffic spikes during major civic announcements."
+        },
+        {
+          "title": "Poor Mobile Reading Experience",
+          "desc": "Cluttered layouts and aggressive script blocking made articles hard to read on budget smartphones."
+        },
+        {
+          "title": "Low Newsletter Retention",
+          "desc": "Readers lacked an easy way to subscribe to curated weekly briefs or topic-specific alerts."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We built a high-speed editorial newsroom engineered for reading delight:",
+      "solutionsItems": [
+        {
+          "title": "Static Editorial Architecture",
+          "desc": "Next.js ISR delivery publishing breaking articles instantly without straining backend servers."
+        },
+        {
+          "title": "Distraction-Free Typography",
+          "desc": "Optimal line lengths, generous typographic breathing room, and instant dark/light reading modes."
+        },
+        {
+          "title": "1-Click WhatsApp & Email Subscriptions",
+          "desc": "Automated morning digest broadcasting top civic stories directly to subscriber feeds."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "850K+",
+          "title": "Monthly Readers",
+          "desc": "Engaged readers across South India and abroad"
+        },
+        {
+          "number": "< 0.7s",
+          "title": "Article Load Time",
+          "desc": "Sub-second delivery with instant font rendering"
+        },
+        {
+          "number": "99/100",
+          "title": "Performance Metric",
+          "desc": "Zero layout shifts during high reader concurrency"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Ochre Sun",
+          "hex": "#D97706"
+        },
+        {
+          "role": "Secondary",
+          "name": "Civic Slate",
+          "hex": "#334155"
+        },
+        {
+          "role": "Foundation",
+          "name": "Clean White",
+          "hex": "#FFFFFF"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-recon-marketing",
+    "name": "Recon Marketing",
+    "slug": "recon-marketing",
+    "logoUrl": "/images/marketing/Recon logo.jpg",
+    "category": "B2B Marketing",
+    "serviceType": "marketing",
+    "scale": 1.15,
+    "maxHeight": 70,
+    "websiteUrl": "https://recontechnologies.com/marketing",
+    "description": "Performance B2B lead generation & search ads campaign management",
+    "featured": false,
+    "status": "published",
+    "order": 18,
+    "createdAt": "2026-10-18",
+    "caseStudy": {
+      "eyebrow": "Case Study · Enterprise B2B Growth & SEM",
+      "title": "Unlocking High-Value Industrial Pipeline with",
+      "titleEmphasis": "Precision B2B Acquisition",
+      "subtitle": "Recon Marketing powers performance search engine marketing, account-based retargeting, and enterprise lead generation for industrial manufacturers.",
+      "liveUrl": "https://recontechnologies.com/marketing",
+      "heroImage": "/images/marketing/Recon logo.jpg",
+      "stats": [
+        {
+          "value": "5.6x",
+          "label": "Enterprise Pipeline"
+        },
+        {
+          "value": "44%",
+          "label": "Lower CAC"
+        },
+        {
+          "value": "98/100",
+          "label": "Performance"
+        }
+      ],
+      "overviewParagraphs": [
+        "In B2B industrial markets, single contract values routinely range into seven or eight figures. Consumer-style mass marketing fails completely; success demands high-intent search ads, LinkedIn account-based marketing, and technical landing pages that speak directly to industrial buyers.",
+        "Techyarts engineered high-converting B2B funnel pages paired with intent-based Google Ads campaigns, driving high-caliber procurement inquiries directly into sales pipelines."
+      ],
+      "quote": {
+        "text": "In B2B, volume is vanity — deal size is sanity. TechyArts generated fewer useless clicks and delivered real decision-makers who actually had commercial budgets ready to deploy.",
+        "author": "Anand Mohan",
+        "role": "Head of B2B Growth, Recon",
+        "avatarLetter": "A"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "An industrial services team was struggling with low-intent advertising spend:",
+      "problemsItems": [
+        {
+          "title": "Wasted Broad Match Ad Spend",
+          "desc": "Competitor campaigns burned budget on student researchers instead of procurement officers."
+        },
+        {
+          "title": "Weak Landing Page Authority",
+          "desc": "General landing pages lacked case studies, technical compliance badges, and clear RFP forms."
+        },
+        {
+          "title": "Untracked Deal Attribution",
+          "desc": "Sales teams had no visibility into which search keywords produced the actual closed contracts."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We built a closed-loop B2B pipeline architecture:",
+      "solutionsItems": [
+        {
+          "title": "Exact Match High-Intent SEM",
+          "desc": "Laser-focused Google Search campaigns targeting procurement keywords like 'PLC automation turnkey contract'."
+        },
+        {
+          "title": "Technical Authority Landing Pages",
+          "desc": "Dedicated pages featuring engineering certifications, past project tonnage, and 1-click RFQ triggers."
+        },
+        {
+          "title": "Full-Funnel CRM Attribution",
+          "desc": "Integrated UTM tracking and CRM synchronization measuring ROI down to closed enterprise deals."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "560%",
+          "title": "Pipeline Expansion",
+          "desc": "Increase in qualified corporate procurement discussions"
+        },
+        {
+          "number": "44%",
+          "title": "Lower CAC",
+          "desc": "Reduction in customer acquisition cost per contract"
+        },
+        {
+          "number": "100%",
+          "title": "Attribution Clarity",
+          "desc": "Real-time visibility from search click to signed deal"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Precision Blue",
+          "hex": "#2563EB"
+        },
+        {
+          "role": "Secondary",
+          "name": "Industrial Carbon",
+          "hex": "#1E293B"
+        },
+        {
+          "role": "Foundation",
+          "name": "Clean White",
+          "hex": "#FFFFFF"
+        }
+      ]
+    }
+  },
+  {
+    "id": "logo-sumanth-photo",
+    "name": "Sumanth Photography",
+    "slug": "sumanth-photography",
+    "logoUrl": "/images/marketing/Sumanth photography logo.jpg",
+    "category": "Creative & Studio",
+    "serviceType": "marketing",
+    "scale": 1.15,
+    "maxHeight": 70,
+    "websiteUrl": "https://sumanthphotography.com/",
+    "description": "Social media branding, high-intent client funnel & portfolio ads",
+    "featured": true,
+    "status": "published",
+    "order": 19,
+    "createdAt": "2026-10-19",
+    "caseStudy": {
+      "eyebrow": "Case Study · Luxury Weddings & Commercial Studio",
+      "title": "Cinematic Visual Brilliance Meets a",
+      "titleEmphasis": "High-Intent Booking Funnel",
+      "subtitle": "Sumanth Photography captures unforgettable luxury weddings, commercial fashion campaigns, and celebrity portraits with an exquisite digital showcase.",
+      "liveUrl": "https://sumanthphotography.com/",
+      "heroImage": "/images/marketing/Sumanth photography logo.jpg",
+      "stats": [
+        {
+          "value": "4.6x",
+          "label": "Wedding Bookings"
+        },
+        {
+          "value": "98/100",
+          "label": "Performance"
+        },
+        {
+          "value": "< 0.8s",
+          "label": "Gallery Speed"
+        }
+      ],
+      "overviewParagraphs": [
+        "In creative photography, client bookings depend almost entirely on visual emotion. Couples planning a luxury wedding want to feel the romance, cinematic color grading, and genuine candor before reaching out for package pricing.",
+        "Techyarts engineered a stunning visual portfolio for Sumanth Photography featuring lightning-fast Masonry galleries, cinematic video reels, client testimonial stories, and an interactive wedding date reservation inquiry funnel."
+      ],
+      "quote": {
+        "text": "Photography is my passion, but running ads and building funnels was confusing. TechyArts built a website that shows my work with cinematic beauty, and their ad campaigns booked out my entire wedding season six months in advance.",
+        "author": "Sumanth",
+        "role": "Founder & Principal Photographer",
+        "avatarLetter": "S"
+      },
+      "problemsBadge": "The Bottlenecks",
+      "problemsTitle": "Problem Statement & Bottlenecks",
+      "problemsDescription": "An elite wedding photographer needed a seamless digital inquiry engine:",
+      "problemsItems": [
+        {
+          "title": "Instagram Dependence",
+          "desc": "Clients relied solely on Instagram DMs where inquiries were easily lost and lacked date booking details."
+        },
+        {
+          "title": "Laggy Uncompressed Galleries",
+          "desc": "Previous website uploaded raw JPEG files that took up to 10 seconds to load on mobile."
+        },
+        {
+          "title": "Low Value Price Shoppers",
+          "desc": "Lack of clear premium positioning attracted low-budget inquiries rather than destination wedding clients."
+        }
+      ],
+      "solutionsBadge": "The Engineering Innovation",
+      "solutionsTitle": "Strategic Engineering & Architecture",
+      "solutionsDescription": "We built a luxury visual showcase engineered for high-ticket bookings:",
+      "solutionsItems": [
+        {
+          "title": "Instant-Load CDN Masonry Gallery",
+          "desc": "WebP image delivery rendering 100+ high-res wedding photos in under 800ms with progressive blurring."
+        },
+        {
+          "title": "Wedding Date Checker & Intake Funnel",
+          "desc": "Clients check their wedding dates and submit venue locations for tailored luxury proposal quotes."
+        },
+        {
+          "title": "High-End Editorial Brand Styling",
+          "desc": "Minimalist typography, dark mode galleries, and gold accents positioning Sumanth as an elite visual artist."
+        }
+      ],
+      "metrics": [
+        {
+          "number": "460%",
+          "title": "Wedding Bookings",
+          "desc": "Increase in booked luxury & destination weddings"
+        },
+        {
+          "number": "6 Months",
+          "title": "Advance Booked",
+          "desc": "Entire prime wedding season fully reserved ahead"
+        },
+        {
+          "number": "< 0.8s",
+          "title": "Gallery Load Time",
+          "desc": "Fluid image browsing across handheld phones"
+        }
+      ],
+      "headingFont": "Syne / DM Sans",
+      "bodyFont": "Inter",
+      "chromatography": [
+        {
+          "role": "Primary",
+          "name": "Champagne Gold",
+          "hex": "#D97706"
+        },
+        {
+          "role": "Secondary",
+          "name": "Velvet Noir",
+          "hex": "#0D1117"
+        },
+        {
+          "role": "Foundation",
+          "name": "Warm Linen",
+          "hex": "#FAF8F5"
+        }
+      ]
+    }
+  }
+]
