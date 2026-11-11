@@ -14,11 +14,12 @@ const notificationsRouter = require('./routes/notifications');
 const blogsRouter = require('./routes/blogs');
 const logosRouter = require('./routes/logos');
 const uploadRouter = require('./routes/upload');
+const adminAuthRouter = require('./routes/adminAuth');
 const { initScheduler } = require('./services/cronScheduler');
 
 
 // Middleware
-app.use(cors());
+app.use(cors({ origin: true, credentials: true }));
 // Mitigate CVE-2026-111181: reject unneeded compressed payloads before decompression stream is created
 app.use(express.json({ inflate: false, limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, inflate: false, limit: '10mb' }));
@@ -29,6 +30,7 @@ app.use('/api/notifications', notificationsRouter);
 app.use('/api/blogs', blogsRouter); 
 app.use('/api/logos', logosRouter);
 app.use('/api/upload', uploadRouter); 
+app.use('/api/admin/auth', adminAuthRouter);
 
 // Basic health check
 app.get('/', (req, res) => {
