@@ -1,16 +1,20 @@
 /**
  * Image Storage Service
- * Saves optimized WebP cover images into the local public/images/blog-covers directory.
+ * Saves optimized WebP cover images and uploads to Supabase Cloud Storage.
+ * Falls back to serving from backend server if Supabase is unavailable.
  * Strictly compresses all images to <= 90KB using high-efficiency WebP multi-pass encoding.
- * NEVER stores raw base64 in database — writes directly to disk storage and returns clean public URLs.
  */
 
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
+const { uploadToSupabaseStorage, isConfigured: isSupabaseConfigured } = require('../supabaseService');
 
-const STORAGE_DIR = path.join(process.cwd(), 'public', 'images', 'blog-covers');
+const STORAGE_DIR = path.join(__dirname, '..', '..', 'data', 'blog-covers');
 const MAX_TARGET_BYTES = 90 * 1024; // Strictly <= 90KB (92,160 bytes)
+
+// Backend base URL for serving images when Supabase is unavailable
+const BACKEND_BASE_URL = process.env.BACKEND_URL || process.env.RENDER_EXTERNAL_URL || 'https://api.techyarts.com';
 
 function ensureStorageDirectory() {
     if (!fs.existsSync(STORAGE_DIR)) {
@@ -19,7 +23,8 @@ function ensureStorageDirectory() {
 }
 
 /**
- * Compress, optimize, and store cover image into disk storage.
+ * Compress, optimize, and store cover image.
+ * Priority: Supabase Cloud Storage → Backend server static serving.
  * Guarantees output file size is <= 90KB.
  *
  * @param {Buffer} rawBuffer - Image buffer from Gemini, FLUX, or Procedural engine
@@ -56,13 +61,29 @@ async function storeCoverImage(rawBuffer, slug = 'article') {
             .toBuffer();
     }
 
-    // Write final <= 90KB WebP file directly to physical disk storage
+    // Write to local disk as backup
     fs.writeFileSync(fullPath, compressedBuffer);
-
     const stats = fs.statSync(fullPath);
-    const publicUrl = `/images/blog-covers/${filename}`;
 
-    console.log(`[ImageStorage] Saved optimized cover to storage: ${publicUrl} (${(stats.size / 1024).toFixed(1)} KB <= 90KB target)`);
+    // Try uploading to Supabase Cloud Storage first
+    let publicUrl = null;
+    if (isSupabaseConfigured) {
+        try {
+            const cloudUrl = await uploadToSupabaseStorage(compressedBuffer, filename, 'image/webp');
+            if (cloudUrl) {
+                publicUrl = cloudUrl;
+                console.log(`[ImageStorage] Uploaded to Supabase Cloud: ${publicUrl} (${(stats.size / 1024).toFixed(1)} KB)`);
+            }
+        } catch (err) {
+            console.warn('[ImageStorage] Supabase upload failed, falling back to backend serving:', err.message);
+        }
+    }
+
+    // Fallback: serve from backend server
+    if (!publicUrl) {
+        publicUrl = `${BACKEND_BASE_URL.replace(/\/$/, '')}/static/blog-covers/${filename}`;
+        console.log(`[ImageStorage] Serving from backend: ${publicUrl} (${(stats.size / 1024).toFixed(1)} KB)`);
+    }
 
     return {
         localPath: fullPath,

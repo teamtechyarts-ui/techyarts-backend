@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const dotenv = require('dotenv');
 const nodemailer = require('nodemailer');
 
@@ -23,6 +24,12 @@ app.use(cors({ origin: true, credentials: true }));
 // Mitigate CVE-2026-111181: reject unneeded compressed payloads before decompression stream is created
 app.use(express.json({ inflate: false, limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, inflate: false, limit: '10mb' }));
+
+// Serve generated blog cover images from data/blog-covers
+app.use('/static/blog-covers', express.static(path.join(__dirname, 'data', 'blog-covers'), {
+  maxAge: '30d',
+  immutable: true
+}));
 
 // Routes
 app.use('/api', notificationsRouter);
