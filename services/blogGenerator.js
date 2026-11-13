@@ -27,7 +27,9 @@ const checkDuplication = dedupMod.checkDuplication || dedupMod.default?.checkDup
 const imagePipelineMod = require('./blogImages/imagePipeline.js');
 const runImagePipeline = imagePipelineMod.runImagePipeline || imagePipelineMod.default?.runImagePipeline || imagePipelineMod;
 
-const DATA_FILE = path.join(process.cwd(), 'server', 'data', 'blogs.json');
+const { syncBlogToSupabase, isConfigured: isSupabaseConfigured } = require('./supabaseService');
+
+const DATA_FILE = path.join(__dirname, '..', 'data', 'blogs.json');
 
 // Backward-compatible Editorial Calendar configuration for cron scheduler telemetry
 const EDITORIAL_CALENDAR = {
@@ -475,6 +477,15 @@ async function regenerateArticleCover(blogId, options = {}) {
     blogs[blogIndex] = blog;
     writeExistingBlogs(blogs);
 
+    // Sync updated blog to Supabase Cloud
+    if (isSupabaseConfigured) {
+        try {
+            await syncBlogToSupabase(blog);
+        } catch (syncErr) {
+            console.warn('[BlogGenerator] Supabase sync error on image regen (non-fatal):', syncErr.message);
+        }
+    }
+
     return {
         success: true,
         coverImage: blog.coverImage,
@@ -597,6 +608,16 @@ async function generateDailyDraft(options = {}) {
 
     existingBlogs.unshift(newDraftPost);
     writeExistingBlogs(existingBlogs);
+
+    // Sync new draft to Supabase Cloud for persistent storage
+    if (isSupabaseConfigured) {
+        try {
+            const synced = await syncBlogToSupabase(newDraftPost);
+            console.log(`[BlogGenerator] Supabase sync ${synced ? 'succeeded' : 'skipped (table may not exist yet)'} for draft: "${newDraftPost.title}"`);
+        } catch (syncErr) {
+            console.warn('[BlogGenerator] Supabase sync error (non-fatal):', syncErr.message);
+        }
+    }
 
     console.log(`[BlogGenerator] Successfully created production AI draft: "${newDraftPost.title}" (${newDraftPost.coverImage})`);
     return newDraftPost;

@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { triggerDraftNow, getSchedulerStatus } = require('../services/cronScheduler');
 const { regenerateArticleCover } = require('../services/blogGenerator');
+const { supabaseAdmin, isConfigured: isSupabaseConfigured, syncBlogToSupabase } = require('../services/supabaseService');
 const router = express.Router();
 
 const DATA_FILE = path.join(__dirname, '..', 'data', 'blogs.json');
@@ -35,6 +36,39 @@ function writeBlogs(blogs) {
     }
 }
 
+/**
+ * Read blogs from Supabase Cloud (fallback when local file is empty or missing)
+ */
+async function readBlogsFromSupabase() {
+    if (!isSupabaseConfigured || !supabaseAdmin) return [];
+    try {
+        const { data, error } = await supabaseAdmin
+            .from('blogs')
+            .select('*')
+            .order('publishedAt', { ascending: false });
+        if (error) {
+            console.warn('[Blogs API] Supabase read warning:', error.message);
+            return [];
+        }
+        return data || [];
+    } catch (err) {
+        console.warn('[Blogs API] Supabase fallback error:', err.message);
+        return [];
+    }
+}
+
+/**
+ * Sync a single blog to Supabase after local write
+ */
+async function syncToCloud(blog) {
+    if (!isSupabaseConfigured) return;
+    try {
+        await syncBlogToSupabase(blog);
+    } catch (err) {
+        console.warn('[Blogs API] Cloud sync warning:', err.message);
+    }
+}
+
 // Helper to generate slug
 function generateSlug(title) {
     return title
@@ -50,9 +84,20 @@ function generateSlug(title) {
  *  - category: filter by category
  *  - search: search title, excerpt, tags
  */
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
     try {
-        const blogs = readBlogs();
+        let blogs = readBlogs();
+
+        // Fallback to Supabase Cloud if local file is empty
+        if (blogs.length === 0 && isSupabaseConfigured) {
+            console.log('[Blogs API] Local blogs.json empty, falling back to Supabase Cloud...');
+            blogs = await readBlogsFromSupabase();
+            if (blogs.length > 0) {
+                writeBlogs(blogs); // Re-hydrate local file from cloud
+                console.log(`[Blogs API] Re-hydrated ${blogs.length} blogs from Supabase Cloud.`);
+            }
+        }
+
         const { status = 'all', category, search } = req.query;
 
         let filtered = [...blogs];
@@ -158,6 +203,7 @@ router.post('/', (req, res) => {
 
         blogs.unshift(newBlog);
         writeBlogs(blogs);
+        syncToCloud(newBlog); // Async cloud backup
 
         console.log('[Blogs API] Created blog:', newBlog.title, `(${newBlog.slug})`);
         return res.status(201).json({ success: true, data: newBlog });
@@ -216,6 +262,7 @@ router.put('/:id', (req, res) => {
 
         blogs[index] = updated;
         writeBlogs(blogs);
+        syncToCloud(updated); // Async cloud backup
 
         console.log('[Blogs API] Updated blog:', updated.title, `(${updated.id})`);
         return res.json({ success: true, data: updated });
